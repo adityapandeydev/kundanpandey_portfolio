@@ -1,7 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const menuBtn = document.getElementById("menu");
+    const menuButton = document.getElementById("menuButton");
+    const menuItems = document.getElementById("menuItems");
 
-    menuBtn.addEventListener("click", function() {
-        menuBtn.classList.toggle("open");
+    menuButton.addEventListener("click", function() {
+        if (menuItems.style.display === "block") {
+            menuItems.style.display = "none";
+        } else {
+            menuItems.style.display = "block";
+        }
     });
 });
