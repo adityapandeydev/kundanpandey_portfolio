@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+
+* {
+    font-family: Baskervville;
+    margin: 0;
+}
+
+body {
+    padding-top: 65px;
+    height: 3000px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    height: 65px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.social-logos {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    margin-left: 65px;
+}
+
+.logo {
+    height: 24px;
+    width: 24px;
+    object-fit: cover;
+}
+
+.name {
+    flex: 1;
+    text-align: center;
+    margin-right: 55px;
+}
+
+.name-text {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    margin-right: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-btn__burger {
+    width: 28px;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    content: '';
+    width: 28px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    transition: all 0.3s ease;
+}
+
+.menu-btn__burger::before {
+    top: -8px;
+}
+
+.menu-btn__burger::after {
+    top: 8px;
+}
+
+.menu.open .menu-btn__burger {
+    transform: rotate(45deg);
+}
+
+.menu.open .menu-btn__burger::before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.menu.open .menu-btn__burger::after {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    column-gap: 50px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.photo {
+    width: 550px;
+    height: 580px;
+    padding-left: 140px;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about {
+    flex: 1;
+    align-items: center;
+    padding-top: 50px;
+    padding-right: 120px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.text1 {
+    font-size: 30px;
+}
+
+.text2, .text3, .text4, .text5 {
+    margin-top: 20px;
+}
+
+.selectors {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.dropdowns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.select {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 30%;
+    height: 40px;
+    background-color: transparent;
+    border: solid 1px #dadada;
+}
+
+#icon {
+    margin-bottom: 9px;
+    font-size: 30px;
+}
+
+i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: grey;
+}
+
+select {
+    font-family: sans-serif;
+    color: grey;
+    font-size: 16px;
+    width: 90%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#select-menu1 {
+    width: 100%;
+}
+
+.grid-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item {
+    height: 450px;
+    background-color: #ffffff;
+    border: 1px solid #b0b0b0;
+    display: flex;
+    justify-content: start;
+    color: #090808;
+    font-size: 20px;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.grid-item:hover {
+    box-shadow: 0 0 5px rgba(245, 241, 241, 0.3);
+    transform: translateY(-3px);
+}
+
+.grid-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+.details {
+    flex: 1;
+    margin-top: 5px;
+    flex-direction: column;
+    color: #696969;
+    font-size: 12px;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    flex: 1;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.description {
+    margin-top: 10px;
+    flex: 1;
+    font-size: 15px;
+    color: #363636;
+}
