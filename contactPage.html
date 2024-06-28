@@ -1,14 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kundan Pandey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link class="title-icon" rel="icon" href="Images/main1.jpg" type="image/jpg">
+    <title>Contact Me</title>
     <link rel="stylesheet" href="contactCss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    Contact Me Page
+<section class="contact-section">
+    <div class="contact-intro">
+        <h2 class="contact-title">Contact Me</h2>
+        <p class="contact-description">
+            If you have a story tip the simplest and safest way to send it to Kundan  is to use an encrypted app.
+            <a class="api" aria-label="Chat on WhatsApp" href="https://wa.me/+919650565782" target="_blank">
+                <p>Whatsapp is best on <span>+919650565782 <i class="fa-brands fa-whatsapp" style="color: #080808;"></i></span></p>
+            </a>
+        </p>
+        <p class="contact-description">
+            You can reach Rhi directly on <a href="mailto:harshmrigwani35@gmail.com">harshmrigwani35@gmail.com</a></p>
+    </div>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="acdf8f80-a9e7-4d66-b141-d8b26ca336c6"/>
+        <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms"/>
+        <input type="hidden" name="from_name" value="My Website"/>
+        <div class="form-group-container">
+            <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input id="name" name="name" class="form-input" placeholder="Your name" type="text" required/>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" class="form-input" placeholder="xyz.gmail.com" type="email" required/>
+            </div>
+            <div class="form-group">
+                <label for="phone" class="form-label">Phone</label>
+                <input id="phone" name="phone" class="form-input" placeholder="+91 " type="text"/>
+            </div>
+            <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-textarea" id="message" name="message" placeholder="Your message"
+                          required></textarea>
+            </div>
+        </div>
+        <button class="form-submit" type="submit">Send</button>
+    </form>
+</section>
 </body>
 </html>
