@@ -1,12 +1,12 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const menuButton = document.getElementById("menuButton");
-    const menuItems = document.getElementById("menuItems");
+function toggleMenu() {
+    var menu = document.getElementById("menu");
+    var menuBar = document.querySelector(".menu-bar");
 
-    menuButton.addEventListener("click", function() {
-        if (menuItems.style.display === "block") {
-            menuItems.style.display = "none";
-        } else {
-            menuItems.style.display = "block";
-        }
-    });
-});
+    if (menu.style.right === "-200px") {
+        menu.style.right = "0";
+        menuBar.classList.add("change");
+    } else {
+        menu.style.right = "-200px";
+        menuBar.classList.remove("change");
+    }
+}

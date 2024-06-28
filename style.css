@@ -47,69 +47,52 @@ body {
     color: black;
 }
 
+.menu-bar {
+    position: fixed;
+    right: 65px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 4px;
+}
+
+.menu-bar div {
+    background-color: #000;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.menu-bar.change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.menu-bar.change .bar2 {
+    opacity: 0;
+}
+
+.menu-bar.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
 .menu {
-    margin-right: 65px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    top: 65.5px;
+    right: -200px; /* Start off-screen */
+    width: 200px;
+    background-color: grey;
+    transition: 0.5s;
 }
 
-.menu-items {
-    display: none;
-    position: absolute;
-    top: 40px;
-    left: 0;
-    background-color: white;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.menu-items a {
-    display: block;
-    padding: 10px 20px;
+.menu a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    color: #333;
-}
-
-.menu-btn__burger {
-    width: 28px;
-    height: 3px;
-    background-color: black;
-    position: relative;
-    transition: all 0.3s ease;
-}
-
-.menu-btn__burger::before,
-.menu-btn__burger::after {
-    content: '';
-    width: 28px;
-    height: 3px;
-    background-color: black;
-    position: absolute;
-    transition: all 0.3s ease;
-}
-
-.menu-btn__burger::before {
-    top: -8px;
-}
-
-.menu-btn__burger::after {
-    top: 8px;
-}
-
-.menu.open .menu-btn__burger {
-    transform: rotate(45deg);
-}
-
-.menu.open .menu-btn__burger::before {
-    transform: rotate(90deg);
-    top: 0;
-}
-
-.menu.open .menu-btn__burger::after {
-    transform: rotate(90deg);
-    top: 0;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
 }
 
 a {
