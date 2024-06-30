@@ -71,7 +71,7 @@ a {
     padding: 0.5rem;
     border: 1px solid black;
     display: flex;
-    height: 2.2rem;
+    height: 2rem;
     width: 100%;
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -100,4 +100,14 @@ a {
 
 .api {
     text-decoration: none;
+}
+
+@media (max-width: 430px) {
+    body {
+        padding: 2rem;
+    }
+
+    .contact-section {
+        margin-top: -15px;
+    }
 }
