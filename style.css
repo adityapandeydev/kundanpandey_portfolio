@@ -323,7 +323,16 @@ footer {
     display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
+
+    .social-logos {
+        margin-left: 10px;
+    }
+
+    .menu-bar {
+        margin-right: 10px;
+    }
+
     .middle {
         padding-top: 40px;
         column-gap: 2%;
@@ -351,11 +360,11 @@ footer {
     }
 
     .title {
-        font-size: 19px;
+        font-size: 20px;
     }
 
     .description {
-        font-size: 17px;
+        font-size: 18.5px;
     }
 }
 
@@ -525,6 +534,12 @@ footer {
 @media (max-width: 1300px) {
     .grid-item {
         height: 480px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .grid-item {
+        height: 520px;
     }
 }
 
