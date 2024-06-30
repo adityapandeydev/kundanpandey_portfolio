@@ -176,6 +176,10 @@ i {
     color: grey;
 }
 
+.topics {
+    margin-right: 13px;
+}
+
 select {
     font-family: sans-serif;
     color: grey;
@@ -325,6 +329,7 @@ footer {
     }
 
     .middle {
+        overflow-scrolling: auto;
         flex-direction: column;
         padding-top: 20px;
     }
@@ -348,13 +353,6 @@ footer {
         margin-top: 10px;
     }
 
-    .social-logos2 {
-        margin: 50px 0 0 200px;
-        column-gap: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
     .logo {
         width: 30px;
@@ -460,13 +458,6 @@ footer {
         margin-top: 10px;
     }
 
-    .social-logos2 {
-        margin: 35px 0 0 190px;
-        column-gap: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
     .selectors {
         margin-top: 20px;
@@ -550,12 +541,12 @@ footer {
     }
 
     .photo {
-        padding: 0 10px;
+        width: 340px;
     }
 
     .about {
-        width: 550px;
-        padding: 10px 0 10px 10px;
+        width: 340px;
+        padding-top: 10px;
     }
 
     .text1 {
@@ -567,21 +558,55 @@ footer {
         margin-top: 10px;
     }
 
+    .social-logos2 {
+        margin-left: 10px;
+        display: flex;
+        column-gap: 10px;
+        justify-content: center;
+        width: 340px;
+    }
+
     .selectors {
+        padding: 0 5px;
         margin-top: 20px;
-        padding: 0 10px 10px 10px;
-        width: 550px;
+        width: 350px;
         font-size: 25px;
     }
 
     .select {
-        width: 28%;
+        width: 31%;
+        padding-left: 5px;
+    }
+
+    i {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    select {
+        font-size: 14px;
+
+    }
+
+    .topics {
+        margin-left: 20px;
+        margin-right: 0;
     }
 
     .grid-container {
-        padding: 0 10px;
-        width: 152.5%;
+        box-sizing: border-box;
+        padding: 0 5px;
+        width: 360px;
+        height: auto;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-item {
+        border-bottom: none;
+    }
+
+    .content {
+        padding: 0 5px;
     }
 
     .title {
@@ -590,5 +615,9 @@ footer {
 
     .description {
         font-size: 12.8px;
+    }
+
+    span {
+        font-family: Bahnschrift;
     }
 }
