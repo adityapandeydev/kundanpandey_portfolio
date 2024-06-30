@@ -256,6 +256,7 @@ span {
 
 .title {
     flex: 1;
+    font-weight: bold;
     margin-top: 5px;
     font-size: 18px;
     margin-bottom: 0;
@@ -278,114 +279,7 @@ footer {
     display: none;
 }
 
-@media (max-width: 485px) {
-
-    .header {
-        height: 60px;
-    }
-
-    .social-logos {
-        display: none;
-    }
-
-    .name {
-        margin-left: 12px;
-        margin-right: 0;
-        text-align: left;
-    }
-
-    .name-text {
-        font-size: 25px;
-    }
-
-    .menu-bar {
-        margin-right: 12px;
-    }
-
-    .bar1, .bar2, .bar3 {
-        width: 31px;
-        height: 3px;
-    }
-
-    .menu-bar div {
-        margin: 5px 0;
-    }
-
-    .menu-bar.change .bar1 {
-        transform: rotate(-45deg) translate(-4px, 6px);
-    }
-
-    .menu-bar.change .bar3 {
-        transform: rotate(45deg) translate(-6px, -7px);
-    }
-
-    .menu {
-        top: 60.5px;
-        width: 200px;
-    }
-
-    .menu a {
-        font-size: 23px;
-    }
-
-    .middle {
-        overflow-scrolling: auto;
-        flex-direction: column;
-        padding-top: 20px;
-    }
-
-    .photo {
-        width: 142.2%;
-        padding: 0 12px;
-    }
-
-    .about {
-        width: 586px;
-        padding: 12px 0 12px 12px;
-    }
-
-    .text1 {
-        font-size: 25px;
-    }
-
-    .text2, .text3, .text4, .text5 {
-        font-size: 15px;
-        margin-top: 10px;
-    }
-
-
-    .logo {
-        width: 30px;
-        height: 30px;
-    }
-
-    .selectors {
-        margin-top: 30px;
-        padding: 0 8px 12px 12px;
-        width: 586px;
-        font-size: 25px;
-    }
-
-    .select {
-        width: 28%;
-    }
-
-    .grid-container {
-        padding: 0 12px;
-        width: 142%;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .title {
-        font-size: 14.7px;
-    }
-
-    .description {
-        font-size: 12.8px;
-    }
-}
-
-@media (max-width: 384px) {
+@media (max-width: 430px) {
 
     .header {
         height: 60px;
@@ -442,111 +336,12 @@ footer {
 
     .photo {
         padding: 0 10px;
+        width: auto;
     }
 
     .about {
-        width: 550px;
-        padding: 10px 0 10px 10px;
-    }
-
-    .text1 {
-        font-size: 25px;
-    }
-
-    .text2, .text3, .text4, .text5 {
-        font-size: 15px;
-        margin-top: 10px;
-    }
-
-
-    .selectors {
-        margin-top: 20px;
-        padding: 0 10px 10px 10px;
-        width: 550px;
-        font-size: 25px;
-    }
-
-    .select {
-        width: 28%;
-    }
-
-    .grid-container {
-        padding: 0 10px;
-        width: 143%;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .title {
-        font-size: 14.7px;
-    }
-
-    .description {
-        font-size: 12.8px;
-    }
-}
-
-@media (max-width: 360px) {
-
-    .header {
-        height: 60px;
-    }
-
-    .social-logos {
-        display: none;
-    }
-
-    .name {
-        margin-left: 10px;
-        margin-right: 0;
-        text-align: left;
-    }
-
-    .name-text {
-        font-size: 25px;
-    }
-
-    .menu-bar {
-        margin-right: 10px;
-    }
-
-    .bar1, .bar2, .bar3 {
-        width: 31px;
-        height: 3px;
-    }
-
-    .menu-bar div {
-        margin: 5px 0;
-    }
-
-    .menu-bar.change .bar1 {
-        transform: rotate(-45deg) translate(-4px, 6px);
-    }
-
-    .menu-bar.change .bar3 {
-        transform: rotate(45deg) translate(-6px, -7px);
-    }
-
-    .menu {
-        top: 60.5px;
-        width: 200px;
-    }
-
-    .menu a {
-        font-size: 23px;
-    }
-
-    .middle {
-        flex-direction: column;
-        padding-top: 20px;
-    }
-
-    .photo {
-        width: 340px;
-    }
-
-    .about {
-        width: 340px;
-        padding-top: 10px;
+        width: auto;
+        padding: 10px 10px 10px 10px;
     }
 
     .text1 {
@@ -559,17 +354,17 @@ footer {
     }
 
     .social-logos2 {
-        margin-left: 10px;
+        margin-top: 10px;
         display: flex;
         column-gap: 10px;
         justify-content: center;
-        width: 340px;
+        width: auto;
     }
 
     .selectors {
         padding: 0 5px;
         margin-top: 20px;
-        width: 350px;
+        width: auto;
         font-size: 25px;
     }
 
@@ -596,13 +391,12 @@ footer {
     .grid-container {
         box-sizing: border-box;
         padding: 0 5px;
-        width: 360px;
-        height: auto;
-        grid-template-columns: repeat(2, 1fr);
+        width: auto;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .grid-item {
-        border-bottom: none;
+        height: 400px;
     }
 
     .content {
@@ -610,14 +404,17 @@ footer {
     }
 
     .title {
-        font-size: 14.7px;
+        font-weight: bold;
+        font-size: 15.7px;
     }
 
     .description {
-        font-size: 12.8px;
+        font-size: 13.8px;
     }
+}
 
-    span {
-        font-family: Bahnschrift;
+@media (max-width: 1300px) {
+    .grid-item {
+        height: 480px;
     }
 }
