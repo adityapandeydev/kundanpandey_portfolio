@@ -270,6 +270,8 @@ span {
 }
 
 footer {
+    position: relative;
+    width: 100%;
     text-align: center;
     background-color: white;
     color: black;
@@ -323,6 +325,14 @@ footer {
     display: none;
 }
 
+.back_to_top {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    text-decoration: none;
+    color: black;
+}
+
 @media (max-width: 1105px) {
 
     .social-logos {
@@ -365,6 +375,11 @@ footer {
 
     .description {
         font-size: 18.5px;
+    }
+
+    .back_to_top {
+        right: 80px;
+        bottom: 10px;
     }
 }
 
@@ -498,7 +513,7 @@ footer {
     }
 
     .description {
-        font-size: 18px;
+        font-size: 19px;
     }
 
     footer {
@@ -522,6 +537,17 @@ footer {
 
     .social-icon {
         margin: 10px 5px;
+    }
+
+    .back_to_top {
+        right: 55px;
+        bottom: 70px;
+    }
+}
+
+@media (max-width: 320px) {
+    .back_to_top {
+        left: -225px;
     }
 }
 
