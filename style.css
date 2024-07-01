@@ -323,7 +323,7 @@ footer {
     display: none;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1105px) {
 
     .social-logos {
         margin-left: 10px;
@@ -542,4 +542,3 @@ footer {
         height: 520px;
     }
 }
-

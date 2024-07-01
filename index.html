@@ -79,12 +79,14 @@
             <i class='bx bx-objects-horizontal-right'></i>
             <select class="topics" id="select-menu1" name="select">
                 <option value="" disabled selected hidden>Topics</option>
-                <option value="option1">Energy Transition</option>
-                <option value="option2">Green Finance/Economy</option>
-                <option value="option4">Climate Change</option>
-                <option value="option5">Governance</option>
-                <option value="option5">Urban Governance</option>
-                <option value="option5">Agriculture</option>
+                <option value="Energy Transition">Energy Transition</option>
+                <option value="Green Finance/Economy">Green Finance/Economy</option>
+                <option value="Climate Change">Climate Change/Sustainability</option>
+                <option value="Governance">Governance</option>
+                <option value="Urban Governance">Urban Governance</option>
+                <option value="Agriculture">Agriculture</option>
+                <option value="Public Health">Public Health</option>
+                <option value="All">All</option>
             </select>
         </div>
 
@@ -92,8 +94,9 @@
             <i class='bx bx-globe'></i>
             <select id="select-menu2" name="select">
                 <option value="" disabled selected hidden>Languages</option>
-                <option value="option1">English</option>
-                <option value="option2">हिन्दी</option>
+                <option value="English">English</option>
+                <option value="Hindi">हिन्दी</option>
+                <option value="All">All</option>
             </select>
         </div>
 
@@ -101,16 +104,16 @@
             <i class='bx bxs-shapes'></i>
             <select id="select-menu3" name="select">
                 <option value="" disabled selected hidden>Publications</option>
-                <option value="option1">Mongabay</option>
-                <option value="option2">Down To Earth</option>
+                <option value="Mongabay">Mongabay</option>
+                <option value="Down To Earth">Down To Earth</option>
+                <option value="All">All</option>
             </select>
         </div>
     </div>
 </div>
 
 <div class="grid-container">
-    <a class="grid-item"
-       href="https://india.mongabay.com/2024/04/wheeling-towards-sustainable-pottery-making-in-khurja/" target="_blank">
+    <a class="grid-item" data-topic="Energy Transition" data-language="English" data-publication="Mongabay" href="https://india.mongabay.com/2024/04/wheeling-towards-sustainable-pottery-making-in-khurja/" target="_blank">
         <img class="image" src="Images/Banner-Khurja-pottery-1200x800.jpg" alt="Image 1">
         <div class="content">
             <p class="details">MONGABAY &#46 <span>11</span>th April <span>2024</span></p>
@@ -122,7 +125,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Green Finance/Economy" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2024/02/indias-stance-at-wto-balances-fisheries-subsidies-for-artisanal-fishers-and-sectoral-growth/"
        target="_blank">
         <img class="image" src="Images/Fishing-sea.jpg" alt="Image 1">
@@ -137,7 +140,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Climate Change" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2024/02/crafting-a-sustainable-future-for-artisans-using-bamboo/"
        target="_blank">
         <img class="image" src="Images/Banner-image.jpg" alt="Image 1">
@@ -153,7 +156,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Governance" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2024/05/what-is-the-sixth-schedule-why-is-ladakh-demanding-to-be-brought-under-it/"
        target="_blank">
         <img class="image" src="Images/Ladakh-Banner.jpg" alt="Image 1">
@@ -169,7 +172,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Urban Governance" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2024/06/urban-growth-fuels-warming-in-indian-cities-finds-a-study/"
        target="_blank">
         <img class="image" src="Images/Basai-wetland-2400x890-1718002627.jpg" alt="Image 1">
@@ -185,7 +188,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Agriculture" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/07/community-based-natural-farming-outshines-other-farming-practices-in-andhra-pradesh-in-all-aspects/"
        target="_blank">
         <img class="image" src="Images/Agriculture-field-work-1200x890.jpg" alt="Image 1">
@@ -200,7 +203,7 @@
         </div>
     </a>
 
-    <a class="grid-item" href="https://www.downtoearth.org.in/news/health/growing-up-stunted-56198" target="_blank">
+    <a class="grid-item" data-topic="Public Health" data-language="English" data-publication="Down To Earth" href="https://www.downtoearth.org.in/news/health/growing-up-stunted-56198" target="_blank">
         <img class="image" src="Images/0.96314800_1478082052_30-20161115.jpg" alt="Image 1">
         <div class="content">
             <p class="details">Down To Earth &#46 <span>15</span>th November <span>2016</span></p>
@@ -214,7 +217,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Energy Transition" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/10/indias-clean-energy-goals-may-widen-regional-disparities-predicts-working-paper/"
        target="_blank">
         <img class="image" src="Images/Amazing-banner-for-kundans-story.jpg" alt="Image 1">
@@ -229,7 +232,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Green Finance/Economy" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/11/navigating-trade-in-troubled-waters-and-the-role-of-wto-at-cop-28/"
        target="_blank">
         <img class="image" src="Images/Banner-high-resolution.jpg" alt="Image 1">
@@ -245,7 +248,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Climate Change, Governance" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/04/legal-protection-of-certain-forest-land-to-be-removed-as-government-pushes-security-projects/"
        target="_blank">
         <img class="image" src="Images/Darjeeling_Zoo.jpg" alt="Image 1">
@@ -261,7 +264,7 @@
         </div>
     </a>
 
-    <a class="grid-item" href="https://india.mongabay.com/2023/03/state-finance-commissions-in-poor-shape/"
+    <a class="grid-item" data-topic="Governance, Green Finance/Economy" data-language="English" data-publication="Mongabay" href="https://india.mongabay.com/2023/03/state-finance-commissions-in-poor-shape/"
        target="_blank">
         <img class="image" src="Images/1200px-Panchayat_India-e1679543019364.jpg" alt="Image 1">
         <div class="content">
@@ -276,7 +279,7 @@
         </div>
     </a>
 
-    <a class="grid-item" href="https://india.mongabay.com/2023/10/poor-governance-burdens-indian-cities-finds-survey/"
+    <a class="grid-item" data-topic="Urban Governance" data-language="English" data-publication="Mongabay" href="https://india.mongabay.com/2023/10/poor-governance-burdens-indian-cities-finds-survey/"
        target="_blank">
         <img class="image" src="Images/Mumbai_03-2016_52_Dharavi_near_Mahim_Junction.jpg" alt="Image 1">
         <div class="content">
@@ -291,7 +294,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Agriculture" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/11/fao-estimates-12-7-trillion-worth-hidden-costs-as-food-makes-its-way-from-farm-to-table/"
        target="_blank">
         <img class="image" src="Images/30291599472_bdaecd87fc_k-2400x890-1701239202.jpg" alt="Image 1">
@@ -306,7 +309,7 @@
         </div>
     </a>
 
-    <a class="grid-item" href="https://www.downtoearth.org.in/news/health/undetected-window-56036" target="_blank">
+    <a class="grid-item" data-topic="Public Health" data-language="English" data-publication="Down To Earth" href="https://www.downtoearth.org.in/news/health/undetected-window-56036" target="_blank">
         <img class="image" src="Images/0.41384000_1476786842_38-20161031-dte.jpg" alt="Image 1">
         <div class="content">
             <p class="details">Down To Earth &#46 <span>31</span>st October <span>2016</span></p>
@@ -322,7 +325,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Energy Transition" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/08/are-mini-grids-the-sustainable-and-economical-solution-to-achieving-global-electrification/"
        target="_blank">
         <img class="image" src="Images/49012565232_56dcf074e5_c.jpg" alt="Image 1">
@@ -337,7 +340,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Green Finance/Economy" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/10/more-climate-change-variables-should-be-used-in-16th-finance-commission-formula-on-tax-distribution-say-experts/"
        target="_blank">
         <img class="image" src="Images/Forest-cover.jpg" alt="Image 1">
@@ -351,7 +354,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Climate Change, Governance" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2021/05/where-are-indian-states-participating-in-net-zero-debate/"
        target="_blank">
         <img class="image" src="Images/4058016973_92c370b7f0_k.jpg" alt="Image 1">
@@ -366,7 +369,7 @@
         </div>
     </a>
 
-    <a class="grid-item" href="https://india.mongabay.com/2023/02/are-cities-smart-enough-to-leverage-municipal-bonds/"
+    <a class="grid-item" data-topic="Urban Governance, Green Finance/Economy" data-language="English" data-publication="Mongabay" href="https://india.mongabay.com/2023/02/are-cities-smart-enough-to-leverage-municipal-bonds/"
        target="_blank">
         <img class="image" src="Images/1620px-Necklace_road_during_Ganesh_Nimajjanam_2019.jpg" alt="Image 1">
         <div class="content">
@@ -381,7 +384,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Agriculture" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/04/with-increasing-climate-related-threats-farmers-gear-up-for-adaptation/"
        target="_blank">
         <img class="image" src="Images/3686006791_d99b95e16f_k-e1680597925981-2048x890.jpg" alt="Image 1">
@@ -396,7 +399,7 @@
         </div>
     </a>
 
-    <a class="grid-item" href="https://www.downtoearth.org.in/news/health/treated-but-not-cured-52039" target="_blank">
+    <a class="grid-item" data-topic="Public Health" data-language="English" data-publication="Down To Earth" href="https://www.downtoearth.org.in/news/health/treated-but-not-cured-52039" target="_blank">
         <img class="image" src="Images/0.01679000_1449558274_18-20151215.jpg" alt="Image 1">
         <div class="content">
             <p class="details">Down To Earth &#46 <span>15</span>th December <span>2015</span></p>
@@ -410,7 +413,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Energy Transition" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/08/on-a-bumpy-road-to-net-zero-trucks-shift-gear-to-reduce-emissions/"
        target="_blank">
         <img class="image" src="Images/Konkan_-_Western_Ghats_-_Scenes_from_Indias_Konkan_Railway_21.jpg" alt="Image 1">
@@ -427,7 +430,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Green Finance/Economy" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/04/latest-rbi-guidelines-to-help-mobilise-domestic-capital-towards-green-activities/"
        target="_blank">
         <img class="image" src="Images/Banner-for-kundan-sotry.jpg" alt="Image 1">
@@ -442,7 +445,7 @@
         </div>
     </a>
 
-    <a class="grid-item" href="https://www.downtoearth.org.in/news/economy/why-we-need-a-circular-economy-65122"
+    <a class="grid-item" data-topic="Climate Change" data-language="English" data-publication="Down To Earth" href="https://www.downtoearth.org.in/news/economy/why-we-need-a-circular-economy-65122"
        target="_blank">
         <img class="image" src="Images/0.27166500_1560771655_44-20190630-english.jpg" alt="Image 1">
         <div class="content">
@@ -457,7 +460,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Agriculture" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2021/01/agrarian-distress-climate-change-farm-income-farmers-protest-ministry-of-agriculture/"
        target="_blank">
         <img class="image" src="Images/Vendors-in-Azadpur-Mandi-in-New-Delhi-1-scaled.jpg" alt="Image 1">
@@ -473,7 +476,7 @@
         </div>
     </a>
 
-    <a class="grid-item" href="https://www.downtoearth.org.in/news/health/paramedics-show-the-way-51469"
+    <a class="grid-item" data-topic="Public Health" data-language="English" data-publication="Down To Earth" href="https://www.downtoearth.org.in/news/health/paramedics-show-the-way-51469"
        target="_blank">
         <img class="image" src="Images/0.63769500_1444726041_52-20151015.jpg" alt="Image 1">
         <div class="content">
@@ -489,7 +492,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Energy Transition" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/09/study-reveals-g20-nations-increased-fossil-fuel-investments-in-2022-defying-climate-goals/"
        target="_blank">
         <img class="image" src="Images/G20-banner-image.jpg" alt="Image 1">
@@ -505,7 +508,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Green Finance/Economy" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/05/rbi-report-examines-implications-of-climate-change-on-economic-growth-and-financial-stability/"
        target="_blank">
         <img class="image"
@@ -522,7 +525,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Climate Change" data-language="English" data-publication="Down To Earth"
        href="https://www.downtoearth.org.in/news/economy/circular-economy-s-potential-remains-unrealised-65123"
        target="_blank">
         <img class="image" src="Images/0.26976400_1561693666_waste.jpg" alt="Image 1">
@@ -538,7 +541,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Governance" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2021/03/pesa-the-wait-for-reforms-on-the-ground-continues-even-after-25-years/"
        target="_blank">
         <img class="image" src="Images/Bazzar.jpeg" alt="Image 1">
@@ -554,7 +557,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Agriculture, Governance" data-language="English" data-publication="Down To Earth"
        href="https://www.downtoearth.org.in/news/agriculture/punjab-s-marginalised-communities-struggle-for-their-right-to-cultivate-common-lands-63005"
        target="_blank">
         <img class="image" src="Images/0.61456800_1548742596_17-20190215-english.jpg" alt="Image 1">
@@ -570,7 +573,7 @@
         </div>
     </a>
 
-    <a class="grid-item" href="https://www.downtoearth.org.in/coverage/shifting-care--48568" target="_blank">
+    <a class="grid-item" data-topic="Public Health" data-language="English" data-publication="Down To Earth" href="https://www.downtoearth.org.in/coverage/shifting-care--48568" target="_blank">
         <img class="image" src="Images/20150228-20.jpg" alt="Image 1">
         <div class="content">
             <p class="details">Down To Earth &#46 <span>28</span>th February <span>2015</span></p>
@@ -585,7 +588,7 @@
         </div>
     </a>
 
-    <a class="grid-item"
+    <a class="grid-item" data-topic="Energy Transition" data-language="English" data-publication="Mongabay"
        href="https://india.mongabay.com/2023/05/storing-or-reusing-captured-carbon-is-emerging-as-tool-in-energy-transition/"
        target="_blank">
         <img class="image" src="Images/800px-Petrol_truck_India-e1684734426192.jpg" alt="Image 1">
@@ -597,6 +600,124 @@
             <p class="description">Public sector oil and gas companies in India are actively embracing
                 emission-reduction strategies such as Carbon Capture, Utilisation, and Storage (CCUS) as India targets
                 net zero by <span class="in">2070</span>. <br> <br> CCUS is a common strategy across India’s oil ...</p>
+        </div>
+    </a>
+
+    <a class="grid-item" data-topic="Climate Change" data-language="English" data-publication="Down To Earth"
+       href="https://www.downtoearth.org.in/news/climate-change/blue-economy-at-risk-60613"
+       target="_blank">
+        <img class="image" src="Images/0.65744800_1526971737_africa-fishin.jpg" alt="Image 1">
+        <div class="content">
+            <p class="details">Down To Earth &#46 <span>22</span>nd May <span>2018</span></p>
+            <p class="title">
+                Rising surface temperature threatens Africa's blue economy
+            </p>
+            <p class="description">Sitting on Ghana’s Apam beach, fisherman Nana Ekow Pasnin is worried about his family’s future. His canoe just returned without a single fish, after spending a marathon 12 hours in the sea. He has never seen such an acute fish shortage in the Atlantic Ocean in his <span class ="in"> 40</span> years of fishing. “Earlier, we could easily fill up the 150 crates in our canoe in every trip. Today, ...</p>
+        </div>
+    </a>
+
+    <a class="grid-item" data-topic="Governance" data-language="English" data-publication="Down to Earth"
+       href="https://www.downtoearth.org.in/news/agriculture/india-in-a-microcosm-will-covid-19-reverse-migrants-pick-up-the-plough-again-palanpur-throws-up-a-question-72392"
+       target="_blank">
+        <img class="image" src="Images/0.83256300_1595323981_main.jpg" alt="Image 1">
+        <div class="content">
+            <p class="details">Down To Earth &#46 <span>21</span>st July <span>2020</span></p>
+            <p class="title">
+                India in a microcosm: Will COVID-<span>19</span> reverse migrants pick up the plough again? Palanpur throws up a question
+            </p>
+            <p class="description">Usman has been unemployed since March, <span class="in">2020</span>. The <span class="in">28</span>-year-old worked as a carpenter in national capital New Delhi for <span class="in">10</span> years. That was before the novel coronavirus disease (COVID-<span class="in">19</span>) pandemic struck — rendering him and his brother jobless, shattering their dream of starting their own business. ...</p>
+        </div>
+    </a>
+
+    <a class="grid-item" data-topic="Public Health" data-language="English" data-publication="Down To Earth"
+       href="https://www.downtoearth.org.in/news/health/-they-stole-my-womb-doctors-mislead-thousands-of-women-to-get-their-uterus-removed-69579"
+       target="_blank">
+        <img class="image" src="Images/0.69458100_1584007502_carousel-(39).jpg" alt="Image 1">
+        <div class="content">
+            <p class="details">Down To Earth &#46 <span>12</span>th March <span>2020</span></p>
+            <p class="title">
+                ‘They stole my womb’: Doctors mislead thousands of women to get their uterus removed
+            </p>
+            <p class="description">It was intriguing that Vandana Khandale, a traditional sugarcane cutter in Maharashtra’s Beed district, was sitting at home in January, the peak time for sugarcane harvesting. “I have developed severe joint pain and feel tired all the time. I get irrigated far too often, and working on the fields has become difficult,” she says. ...</p>
+        </div>
+    </a>
+
+    <a class="grid-item" data-topic="Energy Transition" data-language="English" data-publication="Mongabay"
+       href="https://india.mongabay.com/2022/10/india-needs-legal-framework-for-closing-mines-and-power-plants/"
+       target="_blank">
+        <img class="image" src="Images/coal-mining-12.jpg" alt="Image 1">
+        <div class="content">
+            <p class="details">MONGABAY &#46 <span>25</span>th October <span>2022</span></p>
+            <p class="title">
+                India needs legal framework for closing mines and power plants
+            </p>
+            <p class="description">India is on the way to decommissioning thermal power plants (TPP) and disposing of coal mines at a large scale in the coming few years. However, the country has no legal framework on how this transition will take place. Estimates say that due to these measures, millions of people will lose their livelihood, ...</p>
+        </div>
+    </a>
+
+    <a class="grid-item" data-topic="Climate Change" data-language="English" data-publication="Down To Earth"
+       href="https://www.downtoearth.org.in/coverage/forests/why-zoonotic-diseases-are-spreading-to-humans-at-a-faster-rate-60598"
+       target="_blank">
+        <img class="image" src="Images/0.63396800_1526902627_nipah-monkey.png" alt="Image 1">
+        <div class="content">
+            <p class="details">Down To Earth &#46 <span>21</span>st May <span>2018</span></p>
+            <p class="title">
+                Why zoonotic diseases are fast spreading to humans
+            </p>
+            <p class="description">The National Institute of Virology, Pune confirmed on Sunday that the <span class="in">11</span> deaths in Kerala were due to Nipah virus (NiV) outbreak. <br> <br>
+                The epicentre of the outbreak is Kozhikode where seven people lost their lives. Rest four died in Malappuram and at least <span class="in">10</span> are being treated in different hospitals across Kozhikode. ...</p>
+        </div>
+    </a>
+
+    <a class="grid-item" data-topic="Governance" data-language="English" data-publication="Down To Earth"
+       href="https://www.downtoearth.org.in/interviews/governance/throwback-at-the-time-of-covid-19-1897-plague-caused-distancing-but-there-was-a-socially-cohesive-mass--70303"
+       target="_blank">
+        <img class="image" src="Images/0.43776000_1586354340_kancha_ilaiah_klf-18-(2).jpg" alt="Image 1">
+        <div class="content">
+            <p class="details">Down To Earth &#46 <span>8</span>th April <span>2020</span></p>
+            <p class="title">
+                Throwback at the time of COVID-<span>19</span>: ‘<span>1897</span> plague caused distancing but there was a socially cohesive mass’
+            </p>
+            <p class="description">Kancha Ilaiah Shepherd's family escaped the plague pandemic of <span class="in">1897</span> and scripted a new life. As a child he inherited all the stories of his family’s and the society’s experiences with the pandemic. We see a resemblance in the present pandemic’s impacts on us ...</p>
+        </div>
+    </a>
+
+    <a class="grid-item" data-topic="Public Health" data-language="English" data-publication="Down To Earth"
+       href="https://www.downtoearth.org.in/news/antibiotic-for-superbugs-48448"
+       target="_blank">
+        <img class="image" src="Images/44-20150215.jpg" alt="Image 1">
+        <div class="content">
+            <p class="details">Down To Earth &#46 <span>15</span>th February <span>2015</span></p>
+            <p class="title">
+                Antibiotic for superbugs
+            </p>
+            <p class="description">The world has not seen a new class of antibiotics in the past <span class="in">27</span> years. And bacteria are increasingly becoming resistant to the existing group of antibiotics. Now a group of Boston-based researchers claim to have finally discovered a new drug, which they call teixobactin. Better still, the technology developed by these researchers could pave the way for the discovery of many new classes of ...</p>
+        </div>
+    </a>
+
+    <a class="grid-item" data-topic="Energy Transition" data-language="English" data-publication="Mongabay"
+       href="https://india.mongabay.com/2022/09/coal-will-stay-strong-when-solar-shines-in-indias-energy-transition/"
+       target="_blank">
+        <img class="image" src="Images/800px-High_Relief_Mural_-_Mock-up_Coal_Mine_Entranceway_-_Birla_Industrial__Technological_Museum_-_Kolkata_2010-06-18_6172-e1663754329692.jpg" alt="Image 1">
+        <div class="content">
+            <p class="details">MONGABAY &#46 <span>21</span>st September <span>2022</span></p>
+            <p class="title">
+                Coal will stay strong even as solar shines in India’s energy transition
+            </p>
+            <p class="description">In India’s energy transition, solar will emerge as a dominant source of energy, but coal is still going to be the mainstay of the country’s energy sector. In the coming decade, at least <span class="in">40</span>% more coal consumption is estimated in India. These trends are reflected in the draft version of the National Electricity Plan (NEP) ...</p>
+        </div>
+    </a>
+
+    <a class="grid-item" data-topic="Green Finance/Economy" data-language="English" data-publication="Mongabay"
+       href="https://india.mongabay.com/2022/11/govt-releases-framework-for-sovereign-green-bonds/"
+       target="_blank">
+        <img class="image" src="Images/IMG_20221105_075235-1200x890.jpg" alt="Image 1">
+        <div class="content">
+            <p class="details">MONGABAY &#46 <span>22</span>nd November <span>2022</span></p>
+            <p class="title">
+                A framework for sovereign green bonds a step in the right direction but has miles to go
+            </p>
+            <p class="description">Moving a step ahead towards boosting investor confidence in financing climate action, the Government of India (GoI) has developed a framework for Sovereign Green bonds (SGrB), in which it defines the ‘green’ sector and the process to ensure that investments will be directed to it. The government has sought an ...</p>
         </div>
     </a>
 </div>
