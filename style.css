@@ -269,7 +269,7 @@ span {
 .description {
     margin-top: 10px;
     flex: 1;
-    font-size: 15px;
+    font-size: 14.7px;
     color: #363636;
 }
 
@@ -374,12 +374,12 @@ footer {
     }
 
     .description {
-        font-size: 18.5px;
+        font-size: 18px;
     }
 
     .back_to_top {
         right: 65px;
-        bottom: 0;
+        bottom: 0   ;
     }
 
     .footer-copyright {
