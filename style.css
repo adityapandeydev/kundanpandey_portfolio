@@ -584,10 +584,6 @@ footer {
 
 @media (max-width: 1150px) {
     .grid-item {
-        height: 520px;
-    }
-
-    .description {
-        font-size: 14.5px;
+        height: 530px;
     }
 }
