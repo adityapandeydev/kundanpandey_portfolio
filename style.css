@@ -379,7 +379,7 @@ footer {
 
     .back_to_top {
         right: 65px;
-        bottom: 10px;
+        bottom: 0;
     }
 
     .footer-copyright {
@@ -551,6 +551,16 @@ footer {
     .back_to_top {
         right: 10px;
         bottom: 70px;
+    }
+
+    .footer-copyright {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 360px) {
+    .footer-copyright {
+        font-size: 14px;
     }
 }
 
