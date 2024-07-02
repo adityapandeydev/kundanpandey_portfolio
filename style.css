@@ -586,4 +586,8 @@ footer {
     .grid-item {
         height: 520px;
     }
+
+    .description {
+        font-size: 14.5px;
+    }
 }
