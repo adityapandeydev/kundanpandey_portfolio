@@ -211,7 +211,7 @@ select {
 }
 
 .grid-item {
-    height: 450px;
+    height: 460px;
     background-color: #ffffff;
     border: 1px solid #b0b0b0;
     display: flex;
@@ -269,7 +269,7 @@ span {
 .description {
     margin-top: 10px;
     flex: 1;
-    font-size: 14.7px;
+    font-size: 15px;
     color: #363636;
 }
 
@@ -578,12 +578,12 @@ footer {
 
 @media (max-width: 1300px) {
     .grid-item {
-        height: 480px;
+        height: 500px;
     }
 }
 
 @media (max-width: 1150px) {
     .grid-item {
-        height: 530px;
+        height: 520px;
     }
 }
