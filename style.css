@@ -447,9 +447,13 @@ footer {
     .photo {
         padding: 0 10px;
         width: auto;
-        height: 308px;
+        height: auto;
     }
 
+    .profile {
+        height: 308px;
+    }
+    
     .about {
         width: auto;
         padding: 10px 10px 10px 10px;
