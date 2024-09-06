@@ -441,6 +441,7 @@ footer {
     .middle {
         flex-direction: column;
         padding-top: 20px;
+        height: auto;
     }
 
     .photo {
@@ -450,7 +451,6 @@ footer {
 
     .about {
         width: auto;
-        height: 272px;
         padding: 10px 10px 10px 10px;
     }
 
@@ -469,7 +469,6 @@ footer {
         column-gap: 10px;
         justify-content: center;
         width: auto;
-        height: auto;
     }
 
     .selectors {
