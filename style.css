@@ -388,7 +388,7 @@ footer {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 660px) {
 
     .header {
         height: 60px;
