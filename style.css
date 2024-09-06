@@ -447,6 +447,7 @@ footer {
     .photo {
         padding: 0 10px;
         width: auto;
+        height: 308px;
     }
 
     .about {
