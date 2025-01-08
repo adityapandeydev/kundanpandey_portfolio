@@ -1,5 +1,275 @@
 const articles = [
     {
+        href: "https://www.downtoearth.org.in/news/waste/govt-must-take-stock-of-piling-up-solar-panel-waste-63580",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/12.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "March",
+            year: "2019"
+        },
+        title: "Govt must take stock of piling up solar panel waste",
+        description: "A stairway to Moon can be built by simply joining the <span class='in'>24</span> billion solar photovoltaic (PV) modules that would be installed on Earth by <span class='in'>2050</span>. But there is an ominous flip side to the revolution in solar energy. A solar panel has a lifespan of <span class='in'>20-25</span> years, so what will happen to this waste and how will it be discarded? ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/governance/net-profit-52597",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/13.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "25",
+            suffix: "th",
+            month: "January",
+            year: "2016"
+        },
+        title: "Net profit",
+        description: "AFFLUENCE IS not a word one would normally associate with Jharkhand’s Jamukhadi village, which falls in one of India’s <span class='in'>250</span> most backward districts. But almost all the houses in the village have TV sets, computers and motorbikes. 'There were only a few pucca (brick) houses in our village till <span class='in'>2000</span> when the state was created. Today, <span class='in'>80</span> per cent of the houses are pucca,' says Rameshwar Paswan, ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/neoaddiction-43369",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/14.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "30",
+            suffix: "th",
+            month: "January",
+            year: "2014"
+        },
+        title: "Neo-addiction",
+        description: "ELECTRONIC or e-cigarettes are smartly marketed as a healthier alternative to smoking because they are smokeless—a liquid solution containing nicotine and flavourings is vaporised to simulate tobacco smoking in them. Recent researches, however, show that these battery-powered cigarettes are doing more harm than good by getting youngsters addicted to nicotine. The studies have also not found any ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/at-atoms-mercy-48245",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/56-20150531.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "January",
+            year: "2015"
+        },
+        title: "At atom's mercy",
+        description: "Every working day between <span class='in'>8</span> am and <span class='in'>6</span> pm, a placard-holding protestor stands in front of the United Nations World Health Organization’s (WHO’s) headquarters in Geneva. In the past seven years, more than <span class='in'>300</span> protestors have taken turns to maintain this vigil. They are sentinels of the international collective, Independent WHO—Health and Nuclear Power, who demand that the world’s premier ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/governance/cast-away-49742",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/14-1-201505-31.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "13",
+            suffix: "th",
+            month: "May",
+            year: "2015"
+        },
+        title: "Cast away",
+        description: "MOHAMMAD AMIN'S name is well-known, even five kilometres away from his village of Gulzarpora in Kashmir’s Pulwama district. One just has to ask the address 'of the sarpanch (head of the village) who was killed last year'. And out comes the story. On the night of April <span class='in'>15</span>, <span class='in'>2014</span>, four people in army uniform came at around <span class='in'>10</span> and asked Amin to guide them to militants supposedly hiding in the village. After <span class='in'>15</span> minutes, ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/muted-response-43257",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/38-20140131.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "January",
+            year: "2014"
+        },
+        title: "Muted response",
+        description: "Thirty-five-year-old James (name changed) from Meghalaya was shattered when he was diagnosed with Hepatitis C in <span class='in'>2009</span>. He got another shock when he found that the treatment, which lasts around one year, would cost over Rs <span class='in'>10,000</span> per week. Working as a counsellor with a non-profit for Rs <span class='in'>7,000</span> a month, the expense was beyond his reach. He is one of the millions of Hepatitis C patients in India. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/agriculture/land-for-ladies-44973",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/20140715_55.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "29",
+            suffix: "th",
+            month: "June",
+            year: "2014"
+        },
+        title: "Land for ladies",
+        description: "Breaking the stereotype of rural women, <span class='in'>39</span>-year-old Suresho Saini proudly drives a tractor to plough <span class='in'>1.6</span> hectares (ha) of agricultural land in Rahimpur village in Uttar Pradesh’s Saharanpur district. The plot belongs exclusively to her. 'Women working in agricultural fields are a common sight in India; yet when we think of a farmer, we always think of a man. Even our imagination is biased. Why?' she asks, ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/discomfort-zone-41203",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/20130515_40(2).jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "30",
+            suffix: "th",
+            month: "May",
+            year: "2013"
+        },
+        title: "Discomfort zone",
+        description: "Sixty packets of sanitary napkins are far too many to distribute in a village that has <span class='in'>165</span> adolescent girls, says Sunaina Devi. It’s not that she is too lazy an accredited social health activist (ASHA) to go house to house at Konhi, her village in Bihar’s Buxar district. One packet costs Rs <span class='in'>6</span> but people want it free of cost, say ASHAs. Government provides contraceptives and foodgrain ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/agriculture/stock-option-52136",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/15.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "14",
+            suffix: "th",
+            month: "December",
+            year: "2015"
+        },
+        title: "Stock option",
+        description: "When the eldest daughter of Rubina Begum asked for her tuition fees, Rubina was in a quandary. She and her husband work as agriculture labourers in Darjji Para village in Bangladesh’s Rangpur division. But it was August and the sowing period of paddy was over. They had little money left to pull through the lean season that continues till harvesting begins in November. Rubina approached the paddy bank in her village, ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/publics-private-peeve-40326",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/18_20130228.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "14",
+            suffix: "th",
+            month: "February",
+            year: "2013"
+        },
+        title: "Public’s private peeve",
+        description: "Despite protests by health activists, the Chhattisgarh government seems determined to take the private route for medical diagnostic services.<br>On January <span class='in'>31</span>, people held protests in Raipur, demanding the government scrap the public-private partnership (PPP) for radiology and laboratory services. They say it will undermine the state’s public health system and make medical ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/water/an-open-problem-58809",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/16.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "5",
+            suffix: "th",
+            month: "October",
+            year: "2017"
+        },
+        title: "An open problem",
+        description: "Ghana, Africa's most stable democracy and one of the fastest-growing countries on the Human Development Index, got a jolt this July when Unicef said that the country would take <span class='in'>500</span> years to become open defecation free. According to Unicef, the country loses about US $<span class='in'>79</span> million a year due to lack of access to safe sanitation.<br>The news was also ominous for Africa, because if Ghana, a rising economy, ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/health/why-india-remains-malnourished-42697",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/p22DLpix.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "November",
+            year: "2013"
+        },
+        title: "Why India remains malnourished",
+        description: "Two-and-a-half-year-old Rabina weighs <span class='in'>6.5</span> kg. A healthy child of her age should weigh at least <span class='in'>8</span> kg. But Rabina could not escape the curse of being born in Shivpuri district of Madhya Pradesh—ill-famed as one of the highly malnourished districts of the country for the past <span class='in'>30</span> years.<br>Rabina was not always so. At birth, she was healthy and weighed just right—a little more than <span class='in'>2.5</span> kg. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/bloodless-ban-42568",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/20131115_26.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "30",
+            suffix: "th",
+            month: "October",
+            year: "2013"
+        },
+        title: "Bloodless ban",
+        description: "Over <span class='in'>30</span> per cent maternal deaths in the country happen due to the unavailability of blood in emergency cases. A high percentage of road accident deaths also happen for the same reason.<br>Health activists believe that legalising unbanked direct blood transfusion (UDBT) can arrest the growing number of deaths because of the unavailability of blood units. Under UDBT, doctors test potential ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/whos-to-blame-42310",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/20131015-22.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "30",
+            suffix: "th",
+            month: "September",
+            year: "2013"
+        },
+        title: "WHO’s to blame?",
+        description: "This defies logic. Despite rapid economic growth, India has often been placed below sub-Saharan African countries that have a very high number of malnourished children. But the government has no data to clarify its position. In the first week of September, Parliament’s Committee on Estimates criticised the government, saying: “The committee is surprised to note that in the modern era of Information and ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/environment/these-three-areas-in-and-around-delhi-give-tell-tale-accounts-of-the-state-of-affairs-pan-india-65709",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/17.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "18",
+            suffix: "th",
+            month: "July",
+            year: "2019"
+        },
+        title: "These three areas in and around Delhi give tell-tale accounts of the state of affairs pan-India",
+        description: "Last year, <span class='in'>45</span>-year-old Hardwari Lal earned Rs <span class='in'>18,000</span> from the wheat he grew on his farmland. He had invested Rs <span class='in'>15,000</span> on seeds, fertilisers, and irrigation. The amount does not include labour cost. He will have to put in a similar amount on the next crop. In no way can Lal run his family of five with such a meagre annual income. ..."
+    },
+    {
         href: "https://hindi.mongabay.com/2021/06/25/niti-aayog-sdg-ranking-includes-climate-related-data-but-adds-to-confusion/",
         target: "_blank",
         topic: " ",
@@ -15,7 +285,7 @@ const articles = [
             year: "2021"
         },
         title: "एसडीजी रैंकिंग में पर्यावरण से भी जुड़े मुद्दे पर नीति आयोग के तरीके ने बढ़ाई उलझन",
-        description: "कम से कम 12 राज्यों और केंद्र शासित प्रदेशों में इक्स्ट्रीम वेदर ईवेंट जैसे बाढ़, लू, बिजली गिरने इत्यादि से या तो कोई मौत हुई नहीं है या इन राज्यों में इन मौतों की गिनती के लिए कोई व्यवस्था नहीं है। हाल ही में आई नीति आयोग की रिपोर्ट से यही बात निकलती है जबकि केंद्र सरकार के अपने आंकड़े बताते हैं कि बिहार, गोवा या झारखंड में ऐसी कई मौतें हुई हैं। ये वही राज्य हैं जिन्होंने नीति आयोग के हालिया रिपोर्ट में मौसम की मार ..."
+        description: "कम से कम <span class='in'>12</span> राज्यों और केंद्र शासित प्रदेशों में इक्स्ट्रीम वेदर ईवेंट जैसे बाढ़, लू, बिजली गिरने इत्यादि से या तो कोई मौत हुई नहीं है या इन राज्यों में इन मौतों की गिनती के लिए कोई व्यवस्था नहीं है। हाल ही में आई नीति आयोग की रिपोर्ट से यही बात निकलती है जबकि केंद्र सरकार के अपने आंकड़े बताते हैं कि बिहार, गोवा या झारखंड में ऐसी कई मौतें हुई हैं। ये वही राज्य हैं जिन्होंने नीति आयोग के हालिया रिपोर्ट में मौसम की मार ..."
     },
     {
         href: "https://hindi.mongabay.com/2020/12/02/control-over-poaching-led-to-increase-tiger-population-in-pilibhit/",
@@ -159,7 +429,7 @@ const articles = [
             year: "2021"
         },
         title: "बहस नेट जीरो की: कार्बन उत्सर्जन की लड़ाई में भारत के राज्य कहां खड़े हैं!",
-        description: "संयुक्त राज्य अमेरिका के नव निर्वाचित राष्ट्रपति जो बाइडेन के आह्वान पर, अप्रैल में लगभग 40 देशों ने नेट-जीरो हासिल करने के लिए समय-सीमा की घोषणा की। भारत के प्रधानमंत्री नरेंद्र मोदी ने ऐसी कोई घोषणा तो नहीं की लेकिन उसी वर्चुअल मुलाकात में 2030 तक अक्षय क्षमता के 450 गीगावाट स्थापित करने की अपनी प्रतिबद्धता दोहराई। इन सबको देखते हुए भारत ..."
+        description: "संयुक्त राज्य अमेरिका के नव निर्वाचित राष्ट्रपति जो बाइडेन के आह्वान पर, अप्रैल में लगभग <span class='in'>40</span> देशों ने नेट-जीरो हासिल करने के लिए समय-सीमा की घोषणा की। भारत के प्रधानमंत्री नरेंद्र मोदी ने ऐसी कोई घोषणा तो नहीं की लेकिन उसी वर्चुअल मुलाकात में 2030 तक अक्षय क्षमता के 450 गीगावाट स्थापित करने की अपनी प्रतिबद्धता दोहराई। इन सबको देखते हुए भारत ..."
     },
     {
         href: "https://www.downtoearth.org.in/hindistory/health/communicable-disease/sufferers-then-sufferers-now-70318",
@@ -177,7 +447,7 @@ const articles = [
             year: "2020"
         },
         title: "महामारी से तब भी पीड़ित थे, अब भी पीड़ित हैं : कांचा इलैया",
-        description: "जाने-माने लेखक, राजनीतिक विश्लेषक और कार्यकर्ता कांचा इलैया शेपहर्ड के दादा-दादी 1897 के बुबोनिक प्लेग के शिकार हुए थे। इस महामारी ने अविभाजित भारत की करीब 6 प्रतिशत आबादी को लील लिया था। कांचा को इससे जुड़ी कहानियां विरासत में मिलीं। कुंदन पांडे के साथ बातचीत में वह उनके संघर्षों और जीवित रहने की रणनीतियों को याद कर रहे हैं। ये संघर्ष और ..."
+        description: "जाने-माने लेखक, राजनीतिक विश्लेषक और कार्यकर्ता कांचा इलैया शेपहर्ड के दादा-दादी <span class='in'>1897</span> के बुबोनिक प्लेग के शिकार हुए थे। इस महामारी ने अविभाजित भारत की करीब <span class='in'>6</span> प्रतिशत आबादी को लील लिया था। कांचा को इससे जुड़ी कहानियां विरासत में मिलीं। कुंदन पांडे के साथ बातचीत में वह उनके संघर्षों और जीवित रहने की रणनीतियों को याद कर रहे हैं। ये संघर्ष और ..."
     },
     {
         href: "https://www.downtoearth.org.in/hindistory/health/women-health/doctors-mislead-women-to-get-their-uterus-removed-69745",
