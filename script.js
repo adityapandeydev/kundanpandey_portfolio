@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const topicSelect = document.getElementById('select-menu1');
     const languageSelect = document.getElementById('select-menu2');
     const publicationSelect = document.getElementById('select-menu3');
+    const articlesContainer = document.getElementById('articles-container');
 
     function showAllOption(selectElement) {
         const allOption = selectElement.querySelector('option[value="All"]');
@@ -26,6 +27,34 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 
+    // Function to render the articles dynamically
+    function renderArticles() {
+        //articlesContainer.innerHTML = ''; // Clear the existing articles
+        articles.forEach(article => {
+            const articleElement = document.createElement('a');
+            articleElement.classList.add('grid-item');
+            articleElement.setAttribute('data-topic', article.topic);
+            articleElement.setAttribute('data-language', article.language);
+            articleElement.setAttribute('data-publication', article.publication);
+            articleElement.setAttribute('href', article.href);
+            articleElement.setAttribute('target', article.target);
+
+            articleElement.innerHTML = `
+                <img class="image" src="${article.imgSrc}" alt="${article.imgAlt}">
+                <div class="content">
+                    <p class="details">${article.details.publicationName} &#46 <span>${article.details.day}</span>${article.details.suffix} ${article.details.month} <span>${article.details.year}</span></p>
+                    <p class="title">${article.title}</p>
+                    <p class="description">${article.description}</p>
+                </div>
+            `;
+            articlesContainer.appendChild(articleElement);
+        });
+    }
+
+    // Initially render the articles
+    renderArticles();
+
+    // Filter function for selecting articles
     function filterArticles() {
         const selectedTopic = topicSelect.value;
         const selectedLanguage = languageSelect.value;
