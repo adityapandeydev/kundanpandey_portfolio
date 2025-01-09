@@ -1,5 +1,275 @@
 const articles = [
     {
+        href: "https://www.downtoearth.org.in/news/economy/covid-19-wto-pushes-long-term-agenda-of-liberalising-msmes-71564",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/1.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "4",
+            suffix: "th",
+            month: "June",
+            year: "2020"
+        },
+        title: "COVID-<span>19</span>: WTO pushes long-term agenda of liberalising MSMEs",
+        description: "The novel coronavirus disease (COVID-19) pandemic has bruised several sectors of the Indian economy, but the micro, small and medium enterprises (MSMEs) has been particularly badly hit. Calling for a revival, the World Trade Organization (WTO) in an information note on June <span class='in'>3</span>, <span class='in'>2020</span>, pushed ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/health/why-is-private-healthcare-opposing-the-clinical-establishments-act-59766",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/2.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "22",
+            suffix: "nd",
+            month: "February",
+            year: "2018"
+        },
+        title: "Why is private healthcare opposing the Clinical Establishments Act?",
+        description: "Why, after all, is the medical fraternity afraid of the Clinical Establishments (Registration and Regulation) Act? Back in <span class='in'>2010</span>, when the law, henceforth referred to as CEA, was notified, it was hailed as a model one. The law, which is applicable to all types of health establishments and all streams of medicine, ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/health/gm-flies-promise-a-good-night-45808",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/3.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "14",
+            suffix: "th",
+            month: "August",
+            year: "2014"
+        },
+        title: "GM flies promise a good night",
+        description: "The thought of the world being rid of mosquitoes is enough to give many a good night’s sleep. The idea is close to being a possibility. Scientists from Imperial College, London, have successfully demonstrated a genetic vector control strategy that wiped out most of the female mosquitoes in a cage. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/energy/will-new-categorisation-of-hydropower-plants-lead-to-sector-s-revival--65074",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/4.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "13",
+            suffix: "th",
+            month: "June",
+            year: "2019"
+        },
+        title: "Will new categorisation of hydropower plants lead to sector's revival?",
+        description: "How does one quickly increase the share of renewable energy in a country’s total energy mix? Going by the government of India, it requires a simple file order. On March <span class='in'>6</span>, the renewables sector accounted for <span class='in'>20.6</span> per cent of India’s total energy production, ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/interviews/economy/poor-no-longer-moving-to-higher-income-bracket-pronab-sen-67523",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/5.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "31",
+            suffix: "st",
+            month: "October",
+            year: "2019"
+        },
+        title: "Poor no longer moving to higher income bracket: Pronab Sen",
+        description: "Kundan Pandey: Is there low demand in the economy? Pronab Sen: The demand is not low. The crisis is that the demand is not growing. For a long time, people from lower income groups were earning more and moving into the higher income bracket. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/governance/victims-of-rehabilitation-54129",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/6.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "31",
+            suffix: "st",
+            month: "May",
+            year: "2016"
+        },
+        title: "Victims of rehabilitation",
+        description: "In the bucolic uplands of Dhar district in Madhya Pradesh, a new chapter in the controversial Sardar Sarovar Dam is unfolding. And this one is beyond imagination. Before the displaced people of the dam could be rehabilitated, in recent months anti-dam protesters have detected a new group of displaced people. But they have been displaced not by the backwater of the reservoir but by ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/how-to-cure-corruption-in-healthcare-45570",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/38-20140815.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "31",
+            suffix: "st",
+            month: "July",
+            year: "2014"
+        },
+        title: "How to cure corruption in healthcare",
+        description: "Corruption in the healthcare sector is old news. Almost everybody in the country has been a victim of some form of graft or malpractice—be it inflated bills, wrong diagnosis, or substandard treatment. So it comes as little surprise when a foreigner who has worked in the Indian medical system says, “kickbacks and bribes oil every part of the Indian healthcare machinery”. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/energy/nuclear-s-unclear-leap-58190",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/7.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "3",
+            suffix: "rd",
+            month: "July",
+            year: "2017"
+        },
+        title: "Nuclear's unclear leap",
+        description: "For <span class='in'>12</span> years, three governments and two prime ministers invested high political and diplomatic stakes to enable foreign investment in India’s nuclear power sector. So when the Union government on May <span class='in'>17</span> decided to go indigenous and approved <span class='in'>10</span> nuclear plants to be built by the Nuclear Power Corporation of India Ltd (NPCIL), there were as many surprises as questions. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/economy/economics-of-population-61076",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/8.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "9",
+            suffix: "th",
+            month: "July",
+            year: "2018"
+        },
+        title: "Economics of population",
+        description: "Setting up of the Finance Commission always makes the states uneasy. For this is the constitutional mechanism to share the Central tax pool with states. But the <span class='in'>15</span>th Finance Commission has let out a paroxysm of political protests, particularly by the southern states, literarily dividing the states on north-south line. At the core of this lies a change in the base year for population figure ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/food/black-magic-54002",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/9.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "18",
+            suffix: "th",
+            month: "May",
+            year: "2016"
+        },
+        title: "Revival of Kadaknath: rare breed of black chicken from Madhya Pradesh",
+        description: "When Shruti Bai Parmar was elected sarpanch of Saad village last year, she had an unusual ally to thank: black chickens called Kadaknath. She says she could bear the election expense because of the profit from selling the almost extinct poultry breed endemic to Jhabua district of Madhya Pradesh. A few years earlier, Parmar had been struggling to sustain her family of five. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/delivering-safety-44037",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/20140436.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "April",
+            year: "2014"
+        },
+        title: "Delivering safety",
+        description: "Lal Mohan, a daily wage labourer, has no clue what took his wife’s life. Sarita Devi, <span class='in'>25</span>, was expecting her third child, and was on way to a good hospital at Bhagalpur district in Bihar. “She was normal all through the nine months of pregnancy,” he says. “When labour pains began, we took her to a community health centre (CHC), <span class='in'>15</span> km from our house in Godda district in Jharkhand. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/nuclear-shield-for-mncs-48565",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/20150228-14.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "13",
+            suffix: "th",
+            month: "February",
+            year: "2015"
+        },
+        title: "Nuclear shield for MNCs",
+        description: "THE CIVIL nuclear energy cooperation agreement between India and the US, announced on January <span class='in'>25</span>, was hailed as the highlight of the US President Barack Obama’s recently concluded visit. Although former prime minister of India Manmohan Singh and then US president George Bush had signed a landmark civilian nuclear deal in <span class='in'>2008</span>, the two countries could not do business because the US did not agree to ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/interviews/economy/-centre-using-finance-commission-to-promote-its-flagship-programmes--60864",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/10.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "June",
+            year: "2018"
+        },
+        title: "‘Centre using finance commission to promote its flagship programmes’",
+        description: "There have been controversies in the past, too, but this time the magnitude is high. The order, in which ToR is stated, definitely raises eyebrows. This is a badly drafted ToR. The constitutional requirement of FC, which is vertical and horizontal devolution of taxes, comes as third or fourth position in ToR. It should have been on the first position. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/environment/dam-the-drought-53051",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/11.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "3",
+            suffix: "rd",
+            month: "March",
+            year: "2016"
+        },
+        title: "Dam the drought",
+        description: "A village in Jharkhand has been hiding a secret for more than <span class='in'>30</span> years. The state government has declared all its <span class='in'>24</span> districts drought-affected. But Sato in Gumla district is an oasis of water security. In a stark contrast to villages around, farmers there grow at least two crops of paddy, wheat or maize each year. “Earlier, my family could produce only <span class='in'>400-480</span> kg of rice. Now we are producing <span class='in'>800-1,000</span> kg on our <span class='in'>1.6</span> ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/nicotine-anywhere-43624",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/18-20140315.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "28",
+            suffix: "th",
+            month: "February",
+            year: "2014"
+        },
+        title: "Nicotine anywhere",
+        description: "What’s the worst that could happen to India’s campaign against tobacco? Manufacturers of tobacco products join the campaign, market the idea and make a fortune selling a product which they claim helps addicts quit tobacco.<br>India’s largest tobacco product manufacturer ITC Limited did exactly that when it launched its nicotine chewing gum, KwikNic, in the last quarter of <span class='in'>2013</span>. ..."
+    },
+    {
         href: "https://www.downtoearth.org.in/news/waste/govt-must-take-stock-of-piling-up-solar-panel-waste-63580",
         target: "_blank",
         topic: "Energy Transition",
