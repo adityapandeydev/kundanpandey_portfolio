@@ -1,5 +1,419 @@
 const articles = [
     {
+        href: "https://india.mongabay.com/2021/05/where-are-indian-states-participating-in-net-zero-debate/",
+        target: "_blank",
+        topic: "Climate Change, Governance",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/4058016973_92c370b7f0_k.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "11",
+            suffix: "th",
+            month: "May",
+            year: "2021"
+        },
+        title: "Net zero debate: Where do Indian states stand on the decarbonisation pathway?",
+        description: "Announcing a timeline for net-zero emissions has been the buzzword in the global climate change debate and India has been under intense pressure to announce it as well. Indian has not followed suit but Prime Minister Narendra Modi recently reiterated the country’s commitment ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/02/are-cities-smart-enough-to-leverage-municipal-bonds/",
+        target: "_blank",
+        topic: "Urban Governance, Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/1620px-Necklace_road_during_Ganesh_Nimajjanam_2019.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "21",
+            suffix: "st",
+            month: "February",
+            year: "2023"
+        },
+        title: "Are cities ‘smart’ enough to leverage municipal bonds?",
+        description: "Indore’s Municipal Corporation (IMC) received an overwhelming response from institutional and corporate investors when it issued a green bond last week. This development set a positive tone for similar resource-scarce urban bodies looking for investments to meet civic needs and ambition. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/04/with-increasing-climate-related-threats-farmers-gear-up-for-adaptation/",
+        target: "_blank",
+        topic: "Agriculture",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/3686006791_d99b95e16f_k-e1680597925981-2048x890.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "4",
+            suffix: "th",
+            month: "April",
+            year: "2023"
+        },
+        title: "With increasing climate-related threats, farmers gear up for adaptation",
+        description: "In late February, the Indian Institute of Wheat and Barley Research (IIWBR), a leading scientific institute for wheat, released an advisory recommending farmers in India to spray potassium chloride on wheat crops in case of a sudden rise in temperature. This was ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/health/treated-but-not-cured-52039",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.01679000_1449558274_18-20151215.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "December",
+            year: "2015"
+        },
+        title: "Treated but not cured",
+        description: "In December <span class='in'>2005</span>, the Indian government declared it had fewer than one case of leprosy per <span class='in'>10,000</span> people. This announcement of elimination, as defined by the World Health Organization (WHO), brought relief to a country known to have the highest burden of the disease. But the sense of relief is disappearing fast. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/08/on-a-bumpy-road-to-net-zero-trucks-shift-gear-to-reduce-emissions/",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Konkan_-_Western_Ghats_-_Scenes_from_Indias_Konkan_Railway_21.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "14",
+            suffix: "th",
+            month: "August",
+            year: "2023"
+        },
+        title: "On a bumpy road to net zero, trucks shift gear to reduce emissions",
+        description: "Anjar Ahmed, a truck driver in his fifties, recently embarked on a journey from Dispur in Assam to deliver tiles to Muzaffarpur, Bihar. Over the course of this trip, his <span class='in'>12</span>-wheel truck guzzled approximately <span class='in'>250</span> litres of diesel, costing Rs. <span class='in'>23,000</span>. The truck would have emitted around <span class='in'>670</span> kilograms of carbon dioxide ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/04/latest-rbi-guidelines-to-help-mobilise-domestic-capital-towards-green-activities/",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Banner-for-kundan-sotry.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "23",
+            suffix: "rd",
+            month: "April",
+            year: "2023"
+        },
+        title: "Latest RBI guidelines to help mobilise domestic capital towards green activities",
+        description: "With an increasing trend of commercial banks launching ‘green deposit’ schemes for retail investors, the Reserve Bank of India (RBI) has released a framework to shape the emerging market, including provisions to restrict greenwashing. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/economy/why-we-need-a-circular-economy-65122",
+        target: "_blank",
+        topic: "Climate Change",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.27166500_1560771655_44-20190630-english.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "27",
+            suffix: "th",
+            month: "June",
+            year: "2019"
+        },
+        title: "Why we need a circular economy",
+        description: "Rwanda has a reason for opposing used clothes. Pushed by flawed trade regimes and myopic policies, these goods have nearly decimated the textile, apparel and leather industries in Africa. But elsewhere, a movement of sorts has gained momentum with celebrities urging consumers to choose second-hand clothes for a sustainable future. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2021/01/agrarian-distress-climate-change-farm-income-farmers-protest-ministry-of-agriculture/",
+        target: "_blank",
+        topic: "Agriculture",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Vendors-in-Azadpur-Mandi-in-New-Delhi-1-scaled.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "28",
+            suffix: "th",
+            month: "January",
+            year: "2021"
+        },
+        title: "GrAMs: Market access scheme for farmers still weighed down after three years",
+        description: "After braving the chilling winter on the border of the national capital for around two months, hundreds of thousands of farmers entered Delhi on India’s Republic Day on January <span class='in'>26</span> to protest against the three agriculture laws that the government had passed in the Parliament. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/health/paramedics-show-the-way-51469",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.63769500_1444726041_52-20151015.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "October",
+            year: "2015"
+        },
+        title: "Paramedics show the way",
+        description: "Two girls, in their late <span class='in'>20</span>s, knock on the door of Subhash Barman, a fisherman living in Gopinathpur Malopada village, about <span class='in'>35</span> km from Dhaka. The family welcomes them warmly. Shilpi Barman, wife of Subhash, is in her seventh month of pregnancy. These girls cut Shilpi’s nails and check her blood pressure. They then inspect her bedroom to check whether the bedsheets are clean and also collect her ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/09/study-reveals-g20-nations-increased-fossil-fuel-investments-in-2022-defying-climate-goals/",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/G20-banner-image.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "1",
+            suffix: "st",
+            month: "September",
+            year: "2023"
+        },
+        title: "Study reveals G20 nations increased fossil fuel investments in 2022, defying climate goals",
+        description: "Amid the upcoming G<span class='in'>20</span> summit in New Delhi, where global leaders are poised to deliberate on critical topics including climate change, a study reveals a conflicting trend. Attending countries had substantially increased financial support for fossil fuels in <span class='in'>2022</span> ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/05/rbi-report-examines-implications-of-climate-change-on-economic-growth-and-financial-stability/",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/long_vehicle_vehicle_lorry_wind_turbine_blade_transport_automobile_highway_truck-975962.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "11",
+            suffix: "th",
+            month: "May",
+            year: "2023"
+        },
+        title: "RBI report examines implications of climate change on economic growth and financial stability",
+        description: "The Reserve Bank of India (RBI) has focussed on climate change as the primary theme in its Report on Currency and Finance (RCF) for <span class='in'>2022-23</span>, a theme-based annual report on contemporary issues concerning central banking and macroeconomic issues in India. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/economy/circular-economy-s-potential-remains-unrealised-65123",
+        target: "_blank",
+        topic: "Climate Change",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.26976400_1561693666_waste.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "28",
+            suffix: "th",
+            month: "June",
+            year: "2019"
+        },
+        title: "Circular economy's potential remains unrealised",
+        description: "At the industrial estate road in Vapi, the hub of paper mills in south Gujarat, there is feverish activity. Lorries carrying imported wastepaper make a beeline. Mountains of trash can be seen heaped inside the mills, ready to be recycled. In what can be considered a golden example of the circular economy model, ..."
+    },
+    {
+        href: "https://india.mongabay.com/2021/03/pesa-the-wait-for-reforms-on-the-ground-continues-even-after-25-years/",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Bazzar.jpeg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "4",
+            suffix: "th",
+            month: "March",
+            year: "2021"
+        },
+        title: "PESA: The wait for reforms on the ground continues even after <span>25</span> years",
+        description: "It is the silver jubilee year of the Panchayat (Extension to the Scheduled Areas) Act, <span class='in'>1996</span> that was passed by the Indian parliament to empower people living in the fifth schedule areas, which are mostly dominated by tribal communities. However, the law popularly known as PESA remains ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/agriculture/punjab-s-marginalised-communities-struggle-for-their-right-to-cultivate-common-lands-63005",
+        target: "_blank",
+        topic: "Agriculture, Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.61456800_1548742596_17-20190215-english.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "7",
+            suffix: "th",
+            month: "February",
+            year: "2019"
+        },
+        title: "Punjab's marginalised communities struggle for their right to cultivate common lands",
+        description: "Bant Kaur is content with life. On a chilly January morning, the 50-something widow is busy feeding luscious green fodder to her buffalo, milking it and cooking for her <span class='in'>15</span>-year-old son before leaving for work at 8 in the morning. Resident of Punjab’s Balad Kalan ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/shifting-care--48568",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/20150228-20.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "28",
+            suffix: "th",
+            month: "February",
+            year: "2015"
+        },
+        title: "Shifting care",
+        description: "The initial euphoria around the proposed national health policy seems to be fading ever since the document was placed in the public domain for comments. The draft National Health Policy, <span class='in'>2015</span>, (NHP <span class='in'>2015</span>) is being introduced <span class='in'>13</span> years after the last policy was drafted. The primary aim of the policy is to strengthen ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/05/storing-or-reusing-captured-carbon-is-emerging-as-tool-in-energy-transition/",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/800px-Petrol_truck_India-e1684734426192.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "22",
+            suffix: "nd",
+            month: "May",
+            year: "2018"
+        },
+        title: "Storing or reusing captured carbon is emerging as tool in energy transition",
+        description: "Public sector oil and gas companies in India are actively embracing emission-reduction strategies such as Carbon Capture, Utilisation, and Storage (CCUS) as India targets net zero by <span class='in'>2070</span>. <br> <br> CCUS is a common strategy across India’s oil ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/climate-change/blue-economy-at-risk-60613",
+        target: "_blank",
+        topic: "Climate Change",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.65744800_1526971737_africa-fishin.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "22",
+            suffix: "nd",
+            month: "May",
+            year: "2018"
+        },
+        title: "Rising surface temperature threatens Africa's blue economy",
+        description: "Sitting on Ghana’s Apam beach, fisherman Nana Ekow Pasnin is worried about his family’s future. His canoe just returned without a single fish, after spending a marathon <span class='in'>12</span> hours in the sea. He has never seen such an acute fish shortage in the Atlantic Ocean in his <span class ='in'> 40</span> years of fishing. “Earlier, we could easily fill up the <span class='in'>150</span> crates in our canoe in every trip. Today, ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/agriculture/india-in-a-microcosm-will-covid-19-reverse-migrants-pick-up-the-plough-again-palanpur-throws-up-a-question-72392",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.83256300_1595323981_main.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "21",
+            suffix: "st",
+            month: "July",
+            year: "2020"
+        },
+        title: "India in a microcosm: Will COVID-<span>19</span> reverse migrants pick up the plough again? Palanpur throws up a question",
+        description: "Usman has been unemployed since March, <span class='in'>2020</span>. The <span class='in'>28</span>-year-old worked as a carpenter in national capital New Delhi for <span class='in'>10</span> years. That was before the novel coronavirus disease (COVID-<span class='in'>19</span>) pandemic struck — rendering him and his brother jobless, shattering their dream of starting their own business. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/health/-they-stole-my-womb-doctors-mislead-thousands-of-women-to-get-their-uterus-removed-69579",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.69458100_1584007502_carousel-(39).jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "12",
+            suffix: "th",
+            month: "March",
+            year: "2020"
+        },
+        title: "‘They stole my womb’: Doctors mislead thousands of women to get their uterus removed",
+        description: "It was intriguing that Vandana Khandale, a traditional sugarcane cutter in Maharashtra’s Beed district, was sitting at home in January, the peak time for sugarcane harvesting. “I have developed severe joint pain and feel tired all the time. I get irrigated far too often, and working on the fields has become difficult,” she says. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2022/10/india-needs-legal-framework-for-closing-mines-and-power-plants/",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/coal-mining-12.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "25",
+            suffix: "th",
+            month: "October",
+            year: "2022"
+        },
+        title: "India needs legal framework for closing mines and power plants",
+        description: "India is on the way to decommissioning thermal power plants (TPP) and disposing of coal mines at a large scale in the coming few years. However, the country has no legal framework on how this transition will take place. Estimates say that due to these measures, millions of people will lose their livelihood, ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/forests/why-zoonotic-diseases-are-spreading-to-humans-at-a-faster-rate-60598",
+        target: "_blank",
+        topic: "Climate Change",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.63396800_1526902627_nipah-monkey.png",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "21",
+            suffix: "st",
+            month: "May",
+            year: "2018"
+        },
+        title: "Why zoonotic diseases are fast spreading to humans",
+        description: "The National Institute of Virology, Pune confirmed on Sunday that the <span class='in'>11</span> deaths in Kerala were due to Nipah virus (NiV) outbreak. The epicentre of the outbreak is Kozhikode where seven people lost their lives. Rest four died in Malappuram and at least <span class='in'>10</span> are being treated in different hospitals across Kozhikode. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/interviews/governance/throwback-at-the-time-of-covid-19-1897-plague-caused-distancing-but-there-was-a-socially-cohesive-mass--70303",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.43776000_1586354340_kancha_ilaiah_klf-18-(2).jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "8",
+            suffix: "th",
+            month: "April",
+            year: "2020"
+        },
+        title: "Throwback at the time of COVID-<span>19</span>: ‘<span>1897</span> plague caused distancing but there was a socially cohesive mass’",
+        description: "Kancha Ilaiah Shepherd's family escaped the plague pandemic of <span class='in'>1897</span> and scripted a new life. As a child he inherited all the stories of his family’s and the society’s experiences with the pandemic. We see a resemblance in the present pandemic’s impacts on us ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/antibiotic-for-superbugs-48448",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/44-20150215.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "February",
+            year: "2015"
+        },
+        title: "Antibiotic for superbugs",
+        description: "The world has not seen a new class of antibiotics in the past <span class='in'>27</span> years. And bacteria are increasingly becoming resistant to the existing group of antibiotics. Now a group of Boston-based researchers claim to have finally discovered a new drug, which they call teixobactin. Better still, the technology developed by these researchers could pave the way for the discovery of many new classes of ..."
+    },
+    {
         href: "https://india.mongabay.com/2022/09/coal-will-stay-strong-when-solar-shines-in-indias-energy-transition/",
         target: "_blank",
         topic: "Energy Transition",
@@ -15,7 +429,7 @@ const articles = [
             year: "2022"
         },
         title: "Coal will stay strong even as solar shines in India’s energy transition",
-        description: "In India’s energy transition, solar will emerge as a dominant source of energy, but coal is still going to be the mainstay of the country’s energy sector. In the coming decade, at least 40% more coal consumption is estimated in India. These trends are reflected in the draft version of the National Electricity Plan (NEP) ..."
+        description: "In India’s energy transition, solar will emerge as a dominant source of energy, but coal is still going to be the mainstay of the country’s energy sector. In the coming decade, at least <span class='in'>40</span>% more coal consumption is estimated in India. These trends are reflected in the draft version of the National Electricity Plan (NEP) ..."
     },
     {
         href: "https://india.mongabay.com/2022/11/govt-releases-framework-for-sovereign-green-bonds/",
@@ -51,7 +465,7 @@ const articles = [
             year: "2017"
         },
         title: "Lake Chad's forgotten crisis",
-        description: "Last year when Nigeria declared a nutrition emergency in Borno, indicating acute food insecurity in the state, and said the region stands to lose 80 children every day, it caught the world's attention. More than a dozen humanitarian organisations working in West Africa issued a joint statement, saying the ongoing conflict with the jihadist militant group Boko Haram has ..."
+        description: "Last year when Nigeria declared a nutrition emergency in Borno, indicating acute food insecurity in the state, and said the region stands to lose <span class='in'>80</span> children every day, it caught the world's attention. More than a dozen humanitarian organisations working in West Africa issued a joint statement, saying the ongoing conflict with the jihadist militant group Boko Haram has ..."
     },
     {
         href: "https://www.downtoearth.org.in/news/governance/india-s-population-1-37-billion-and-not-counting-69013",
@@ -68,7 +482,7 @@ const articles = [
             month: "February",
             year: "2020"
         },
-        title: "India's population: 1.37 billion and not counting",
+        title: "India's population: <span>1.37</span> billion and not counting",
         description: "Be it a political meeting, a hot TV debate or just a healthy tea-time chat, the topic would most often veer around population. That was about four decades back. Prime Minister Narendra Modi has brought the debate back to the discussion table after he used the term “population explosion” in his Independence Day speech last year. ..."
     },
     {
@@ -87,7 +501,7 @@ const articles = [
             year: "2015"
         },
         title: "Right diagnosis, wrong pills",
-        description: "WITH THE hope of making healthcare affordable, the Centre on December 24 last year allowed 100 per cent foreign direct investment (FDI) in medical devices sector. The policy also recognised medical devices as a separate category for the first time which was till now a part of drugs. V K Subburaj, secretary, Department of Pharmaceuticals, says ..."
+        description: "WITH THE hope of making healthcare affordable, the Centre on December <span class='in'>24</span> last year allowed 100 per cent foreign direct investment (FDI) in medical devices sector. The policy also recognised medical devices as a separate category for the first time which was till now a part of drugs. V K Subburaj, secretary, Department of Pharmaceuticals, says ..."
     },
     {
         href: "https://india.mongabay.com/2022/10/big-gaps-in-green-financing-could-hamper-indias-energy-transition/",
