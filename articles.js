@@ -1,5 +1,347 @@
 const articles = [
     {
+        href: "https://india.mongabay.com/2022/09/coal-will-stay-strong-when-solar-shines-in-indias-energy-transition/",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/800px-High_Relief_Mural_-_Mock-up_Coal_Mine_Entranceway_-_Birla_Industrial__Technological_Museum_-_Kolkata_2010-06-18_6172-e1663754329692.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "21",
+            suffix: "st",
+            month: "September",
+            year: "2022"
+        },
+        title: "Coal will stay strong even as solar shines in India’s energy transition",
+        description: "In India’s energy transition, solar will emerge as a dominant source of energy, but coal is still going to be the mainstay of the country’s energy sector. In the coming decade, at least 40% more coal consumption is estimated in India. These trends are reflected in the draft version of the National Electricity Plan (NEP) ..."
+    },
+    {
+        href: "https://india.mongabay.com/2022/11/govt-releases-framework-for-sovereign-green-bonds/",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/IMG_20221105_075235-1200x890.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "22",
+            suffix: "nd",
+            month: "November",
+            year: "2022"
+        },
+        title: "A framework for sovereign green bonds a step in the right direction but has miles to go",
+        description: "Moving a step ahead towards boosting investor confidence in financing climate action, the Government of India (GoI) has developed a framework for Sovereign Green bonds (SGrB), in which it defines the ‘green’ sector and the process to ensure that investments will be directed to it. The government has sought an ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/water/lake-chad-forgotten-crisis-56974",
+        target: "_blank",
+        topic: "Climate Change",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.54680600_1486116800_30-20160215-dte.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "February",
+            year: "2017"
+        },
+        title: "Lake Chad's forgotten crisis",
+        description: "Last year when Nigeria declared a nutrition emergency in Borno, indicating acute food insecurity in the state, and said the region stands to lose 80 children every day, it caught the world's attention. More than a dozen humanitarian organisations working in West Africa issued a joint statement, saying the ongoing conflict with the jihadist militant group Boko Haram has ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/governance/india-s-population-1-37-billion-and-not-counting-69013",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.35311100_1581404707_carousel-(34).jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "11",
+            suffix: "th",
+            month: "February",
+            year: "2020"
+        },
+        title: "India's population: 1.37 billion and not counting",
+        description: "Be it a political meeting, a hot TV debate or just a healthy tea-time chat, the topic would most often veer around population. That was about four decades back. Prime Minister Narendra Modi has brought the debate back to the discussion table after he used the term “population explosion” in his Independence Day speech last year. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/right-diagnosis-wrong-pills-48434",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/18-20150215(1).jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "February",
+            year: "2015"
+        },
+        title: "Right diagnosis, wrong pills",
+        description: "WITH THE hope of making healthcare affordable, the Centre on December 24 last year allowed 100 per cent foreign direct investment (FDI) in medical devices sector. The policy also recognised medical devices as a separate category for the first time which was till now a part of drugs. V K Subburaj, secretary, Department of Pharmaceuticals, says ..."
+    },
+    {
+        href: "https://india.mongabay.com/2022/10/big-gaps-in-green-financing-could-hamper-indias-energy-transition/",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/SI-Raghavan-Mettu-Pirancheri-scaled-2400x890-1665980998.jpeg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "17",
+            suffix: "th",
+            month: "October",
+            year: "2022"
+        },
+        title: "Big gaps in green financing could hamper India’s energy transition",
+        description: "October, a month that is typically associated with celebration and festive fervour in India, came with some unexpected news for those who track global finance. In the first week, reports said that one of the top American national banks, JPMorgan Chase & Co., has held off on including India in its global bond index, a semi-annual review of its emerging-market debt index which is a useful indicator for investors. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2022/08/rbi-gears-up-to-deal-with-climate-related-financial-risks/",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Cropped-Reserve_Bank_of_India_RBI_building_September_2011-2400x890.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "19",
+            suffix: "th",
+            month: "August",
+            year: "2022"
+        },
+        title: "RBI gears up to deal with climate-related financial risks",
+        description: "In a bid to make India’s financial system resilient to climate-related risks, the Reserve Bank of India (RBI) is mulling over possible regulations. As a start, the central bank has come up with a discussion paper on climate risk and sustainable finance and has asked for feedback from concerned stakeholders about the possible regulatory system in the near future. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/weaving-trouble-49985",
+        target: "_blank",
+        topic: "Climate Change",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/18-20150615-1.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "June",
+            year: "2015"
+        },
+        title: "Weaving trouble",
+        description: "KASHMIR'S FABLED handcrafted pashmina shawls could soon be a thing of the past. The proliferation of machine-made pashmina products has become a big threat to the livelihood of the state’s artisans who have been spinning and weaving pashmina for ages. According to the Jammu and Kashmir handicraft department, the export of pashmina shawls fell from ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/real-threats-of--virtual-world-47823",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/46-20141231.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "31",
+            suffix: "st",
+            month: "December",
+            year: "2014"
+        },
+        title: "Real threats of virtual world",
+        description: "It all began when he was in the <span class='in'>11</span>th standard. His inquisitive mind led him towards the Internet, and he started spending more time in front of the computer. Long hours of sitting took a toll on his health and he developed back pain. Yet the <span class='in'>16</span>-year-old boy in Pune could not stay away from the virtual world. By the end of that year, he had downloaded data worth Rs <span class='in'>12,000</span>. One day, when his mother tried ..."
+    },
+    {
+        href: "https://india.mongabay.com/2022/07/video-can-a-waste-to-energy-plant-address-piling-concerns-from-a-landfill-site/",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/banner-2-bandhwari.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "1",
+            suffix: "st",
+            month: "July",
+            year: "2022"
+        },
+        title: "[Video] Can a waste-to-energy plant address piling concerns from a landfill site?",
+        description: "On June <span class='in'>13</span>, the National Human Rights Commission (NHRC) issued a notice to the Haryana government regarding inaction over hazardous waste contaminating the groundwater near the Bandhwari landfill. <br> The waste dumping site, located near the Delhi and Haryana border, has been in ..."
+    },
+    {
+        href: "https://india.mongabay.com/2022/02/sebi-proposes-regulation-of-esg-ranking-providers/",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/1280px-BSE_building_at_Dalal_Street.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "10",
+            suffix: "th",
+            month: "February",
+            year: "2022"
+        },
+        title: "With plans to standardise ESG rating, India’s market regulator takes a step towards sustainable finance",
+        description: "There are two emerging trends visible in the Indian capital market for the past couple of years. The first is the sharp increase in the number of retail investors and the second is the increasing demand for sustainable finance. In line with these trends, there is an emerging market of ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/shit-its-profitable-47389",
+        target: "_blank",
+        topic: "Climate Change",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/24-20141130.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "14",
+            suffix: "th",
+            month: "November",
+            year: "2014"
+        },
+        title: "Shit, it's profitable",
+        description: "Farmer raj Anna has been making unprecedented profits from his farmland since the past few years. The <span class='in'>42</span>-year-old earns more than Rs <span class='in'>15</span> lakh a year. Ask him how he manages such a handsome income and he replies—through human excreta. Anna is one of the <span class='in'>1,000</span>-odd farmers in Bengaluru who have revived the lost practice of using human excreta as manure. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/food/madhya-pradesh-s-egg-centric-problem-choose-between-nutrition-and-hegemony-68366",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/down-to-earth_import_library_large_2019-12-11_0.94151700_1576070677_new.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "11",
+            suffix: "th",
+            month: "December",
+            year: "2019"
+        },
+        title: "Madhya Pradesh’s egg-centric problem: Choose between nutrition and hegemony",
+        description: "A strange protest is shaping up in Madhya Pradesh (MP) over the Kamal Nath government’s recent decision to provide eggs under the supplementary food programme. <br> “We plan a postcard campaign to reach each and every school and tell students to not participate in the programme on the days eggs are distributed,” said ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/access-denied-47385",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/14-20141130.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "14",
+            suffix: "th",
+            month: "November",
+            year: "2014"
+        },
+        title: "Access denied",
+        description: "The fight against HIV/AIDS in India is becoming tougher by the day as patients continue to face an acute shortage of antiretroviral drugs. This is an alarming situation for a country with the third-highest number of HIV+ people in the world—<span class='in'>2.1</span> million. In <span class='in'>2012</span>, about <span class='in'>140,000</span> people in India died of AIDS. Such is the demand-supply ..."
+    },
+    {
+        href: "https://india.mongabay.com/2021/03/using-fossil-fuel-as-a-cash-cow-a-big-obstacle-in-indias-energy-transition/",
+        target: "_blank",
+        topic: "Energy Transition, Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/nilima-jangid-O9h6ZoaAJN4-unsplash-scaled.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "31",
+            suffix: "st",
+            month: "March",
+            year: "2021"
+        },
+        title: "Using fossil fuel as a cash cow: A big obstacle in India’s energy transition",
+        description: "The Covid-<span class='in'>19</span> pandemic has laid bare the Indian government’s dependence on fossil fuels for revenue generation and this could impact the country’s plans for large-scale adoption of clean energy at a time when a ‘just’ energy-transition is crucial to address climate change. For the most part of <span class='in'>2020</span>, when the economy was in the doldrums, the rise in prices of petrol ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/work-of-friction-49720",
+        target: "_blank",
+        topic: "Climate Change",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/down-to-earth_import_dte_userfiles_images_24-201505-31.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "12",
+            suffix: "th",
+            month: "May",
+            year: "2015"
+        },
+        title: "Work of friction",
+        description: "What makes the Himalayan region a hotbed of seismic activities? The answer lies in the processes which led to the formation of the mountain range. The youngest range in the world, the Himalayas were formed due to the collision of the Indian plate with the Eurasian plate <span class='in'>40-50</span> million years ago. The Indian plate has been sliding under the Eurasian plate ever since. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/governance/the-rise-of-the-rurals-59569",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/2018-01-25_0.94308300_1516863710_p08-09dlpix-p1140735.avif",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "25",
+            suffix: "th",
+            month: "January",
+            year: "2018"
+        },
+        title: "The rise of the rurals",
+        description: "By the end of May <span class='in'>2014</span>, Gujarat had stopped being a living state. It assumed an identity—almost reaching mythical levels—called the “Gujarat Model”. It fuelled over <span class='in'>800</span> million voters’ aspiration, cutting across the rural and urban segments. Expectedly, this ensured India’s first post-independence born Prime Minister Narendra Modi storming Parliament with a historic win. ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/coverage/health/emergency-call-45804",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/22-20140831.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "14",
+            suffix: "th",
+            month: "August",
+            year: "2014"
+        },
+        title: "Emergency call",
+        description: "Kailash Jha, <span class='in'>46</span>, a resident of Purnia in Bihar, has been immobile for almost six months now. In February, while returning home from a pilgrimage to Deoghar in Jharkhand, a truck hit the vehicle he was travelling in. When Jha regained consciousness two days later, he realised a spinal cord injury had left him bed-ridden. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2021/04/covid-19-will-make-modern-energy-far-from-poor-in-india/",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/6768393401_62fc96076b_o-1.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "27",
+            suffix: "th",
+            month: "April",
+            year: "2021"
+        },
+        title: "30 years of liberalisation: Existing poor energy access may dive down further with Covid-19",
+        description: "It was the year <span class='in'>1991</span> when India decided to open its economy. Hakki Bai, a five-year-old girl then, used to go to nearby forests with her mother to pick woods for fuel. Her mother would use it as firewood to prepare food for her and her father. <span class='in'>30</span>-years later, Hakki Bai, now a mother, ..."
+    },
+    {
         href: "https://www.downtoearth.org.in/news/economy/covid-19-wto-pushes-long-term-agenda-of-liberalising-msmes-71564",
         target: "_blank",
         topic: "Green Finance/Economy",
