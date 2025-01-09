@@ -1,5 +1,239 @@
 const articles = [
     {
+        href: "https://india.mongabay.com/2024/05/what-is-the-sixth-schedule-why-is-ladakh-demanding-to-be-brought-under-it/",
+        target: "_blank",
+        topic: "Governance",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Ladakh-Banner.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "MONGABAY",
+            day: "17",
+            suffix: "th",
+            month: "May",
+            year: "2024"
+        },
+        title: "What is the Sixth Schedule? Why is Ladakh demanding to be brought under it?",
+        description: "On May <span class='in'>10</span>, after <span class='in'>66</span> days of protests, demanding statehood and Sixth Schedule-status for Ladakh, the protestors suspended their 'climate fast' for the upcoming polls on May <span class='in'>20</span>. The protestors plan to continue their hunger strike after a new government is formed in early June..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/06/urban-growth-fuels-warming-in-indian-cities-finds-a-study/",
+        target: "_blank",
+        topic: "Urban Governance",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Basai-wetland-2400x890-1718002627.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "MONGABAY",
+            day: "10",
+            suffix: "th",
+            month: "June",
+            year: "2024"
+        },
+        title: "Urban growth fuels warming in Indian cities, finds a study",
+        description: "Cities in India are experiencing warming at nearly twice the rate compared to the rest of the country, according to a recent study. The study, published in the journal Nature, stated that climate change is warming the entire region..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/07/community-based-natural-farming-outshines-other-farming-practices-in-andhra-pradesh-in-all-aspects/",
+        target: "_blank",
+        topic: "Agriculture",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Agriculture-field-work-1200x890.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "MONGABAY",
+            day: "31",
+            suffix: "st",
+            month: "July",
+            year: "2024"
+        },
+        title: "Community-based natural farming outshines other farming practices ...",
+        description: "Andhra Pradesh’s Community-Based Natural Farming (APCNF) defies the popular belief that chemical fertilisers guarantee better yields. According to a comparative study of prevalent farming practices in the state, conducted over two years in three districts of Andhra Pradesh, ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/health/growing-up-stunted-56198",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.96314800_1478082052_30-20161115.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "15",
+            suffix: "th",
+            month: "November",
+            year: "2016"
+        },
+        title: "Growing up stunted",
+        description: "Shivraj, namesake of the chief minister of Madhya Pradesh, lost his one-year-old son Dharmraj in August this year. “His growth was extremely slow, and he was getting sicker and weaker with each passing day,” recalls Shivraj, a resident of Bhairopura village in Sheopur district of Madhya Pradesh. When his condition worsened, Shivraj took him to the healthcare centre at Karahal ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/10/indias-clean-energy-goals-may-widen-regional-disparities-predicts-working-paper/",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Amazing-banner-for-kundans-story.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "MONGABAY",
+            day: "20",
+            suffix: "th",
+            month: "October",
+            year: "2023"
+        },
+        title: "India’s clean energy goals may widen regional disparities, predicts working paper",
+        description: "India’s ambitious clean energy goals, focusing on increasing renewables and reducing coal use, may heighten disparities between two regions of the country – one covering western and southern states and the other, northern and eastern states – finds a recent working paper. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/11/navigating-trade-in-troubled-waters-and-the-role-of-wto-at-cop-28/",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Banner-high-resolution.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "24",
+            suffix: "th",
+            month: "November",
+            year: "2023"
+        },
+        title: "Navigating trade and the role of WTO at COP<span>28</span>",
+        description: "The role of trade and trade policy is increasingly being considered in discussions to further climate action. Trade will be in the spotlight at the upcoming UN climate conference in Dubai, with the World Trade Organisation (WTO), co-leading Trade Day, marking the first time that trade will feature as a theme in the conferences. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/04/legal-protection-of-certain-forest-land-to-be-removed-as-government-pushes-security-projects/",
+        target: "_blank",
+        topic: "Climate Change, Governance",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Darjeeling_Zoo.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "6",
+            suffix: "th",
+            month: "April",
+            year: "2023"
+        },
+        title: "Legal protection of certain forest land to be removed as government pushes security projects",
+        description: "Certain categories of forest land will no longer be legally protected, as proposed by the Forest (Conservation) Amendment Bill, <span class='in'>2023</span>, that the union government introduced in Lok Sabha on March <span class='in'>29</span>. A need to fast-track strategic and security-related projects, ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/03/state-finance-commissions-in-poor-shape/",
+        target: "_blank",
+        topic: "Governance, Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/1200px-Panchayat_India-e1679543019364.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "23",
+            suffix: "rd",
+            month: "March",
+            year: "2023"
+        },
+        title: "State Finance Commissions in ‘poor’ shape, affecting decentralisation process",
+        description: "This year marks <span>30</span> years since India began decentralising governance and empowering local bodies in rural and urban areas through constitutional amendments. As part of this process, one of the mandates for states was to create a State Finance Commission that would ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/10/poor-governance-burdens-indian-cities-finds-survey/",
+        target: "_blank",
+        topic: "Urban Governance",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Mumbai_03-2016_52_Dharavi_near_Mahim_Junction.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "26",
+            suffix: "th",
+            month: "October",
+            year: "2023"
+        },
+        title: "Poor governance burdens Indian cities, finds survey",
+        description: "India’s urban governance is ill-prepared to deal with the impacts of unprecedented expansion that is taking place in cities, highlights a recent survey. The survey, that evaluates the quality of governance in cities, reveals that <span class='in'>39</span>% of state capitals, do not have active master plans that are urban governance tools that chart out ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/11/fao-estimates-12-7-trillion-worth-hidden-costs-as-food-makes-its-way-from-farm-to-table/",
+        target: "_blank",
+        topic: "Agriculture",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/30291599472_bdaecd87fc_k-2400x890-1701239202.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "29",
+            suffix: "th",
+            month: "November",
+            year: "2023"
+        },
+        title: "FAO estimates $<span>12.7</span> trillion worth hidden costs in the journey of food from farm to table",
+        description: "A recent report reveals that the global agrifood system, while having benefits of nutrition and livelihood, has hidden costs, such as those related to health and the environment. These add up when estimating the value of the agricultural process of production, ..."
+    },
+    {
+        href: "https://www.downtoearth.org.in/news/health/undetected-window-56036",
+        target: "_blank",
+        topic: "Public Health",
+        language: "English",
+        publication: "Down To Earth",
+        imgSrc: "Images/0.41384000_1476786842_38-20161031-dte.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Down To Earth",
+            day: "31",
+            suffix: "st",
+            month: "October",
+            year: "2016"
+        },
+        title: "Undetected window",
+        description: "For a world free of tuberculosis, the World Health Organization has set a few targets: reduction of incidence rate by <span class='in'>90</span> per cent and deaths by <span class='in'>95</span> per cent by <span class='in'>2035</span> from the <span class='in'>2015</span> levels. To comply with the targets India—that accounts for <span class='in'>23</span> per cent of the global TB burden—has adopted newer strategies and tools. It is also coping with challenges like emergence of drug-resistant TB. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/08/are-mini-grids-the-sustainable-and-economical-solution-to-achieving-global-electrification/",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/49012565232_56dcf074e5_c.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "23",
+            suffix: "rd",
+            month: "August",
+            year: "2023"
+        },
+        title: "The potential of mini-grids as a sustainable and economical alternative for global electrification",
+        description: "Jharkhand is soliciting bids for maintaining mini and microgrids – decentralised, small-scale electricity generation systems – across the state. Previously, the state has had disappointments with unreliable vendors meant to maintain such systems which are key ..."
+    },
+    {
+        href: "https://india.mongabay.com/2023/10/more-climate-change-variables-should-be-used-in-16th-finance-commission-formula-on-tax-distribution-say-experts/",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Forest-cover.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "6",
+            suffix: "th",
+            month: "October",
+            year: "2023"
+        },
+        title: "More climate change variables needed in 16th Finance Commission’s tax distribution formula, say experts",
+        description: "As the union government gears up to constitute the 16th Finance Commission (FC) – the constitutional body for centre-state financial relations – experts recommend including variables related to climate change, beyond forest cover, to determine the division of tax revenue among states. ..."
+    },
+    {
         href: "https://india.mongabay.com/2021/05/where-are-indian-states-participating-in-net-zero-debate/",
         target: "_blank",
         topic: "Climate Change, Governance",
@@ -1304,7 +1538,7 @@ const articles = [
         imgSrc: "Images/8320713187_b061fa00ba_k-2048x890.jpg",
         imgAlt: "Image 1",
         details: {
-            publicationName: "MONGABAY",
+            publicationName: "Mongabay",
             day: "25",
             suffix: "",
             month: "जून",
