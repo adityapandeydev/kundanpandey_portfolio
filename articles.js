@@ -1,5 +1,239 @@
 const articles = [
     {
+        href: "https://india.mongabay.com/2024/12/the-methane-puzzle-of-ambition-and-action-unfolds-at-cop29/",
+        target: "_blank",
+        topic: "Climate Change, Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Iranian_Fire_altar-2400x890.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "13",
+            suffix: "th",
+            month: "December",
+            year: "2024"
+        },
+        title: "The methane puzzle of ambition and action unfolds at COP<span>29</span>",
+        description: "The United Nations Environment Programme (UNEP) has built a Methane Alert and Response System (MARS), which captures data from methane-detecting satellites and releases alerts for countries and companies about methane leakage. It expects the entity to plug the leak after receiving the alert. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/11/developing-nations-demand-public-grants-not-loans-at-cop29-finance-talks/",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/UNFCCC-COP29-9014-scaled-2400x890-1732169679.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "21",
+            suffix: "st",
+            month: "November",
+            year: "2024"
+        },
+        title: "Developing nations demand public grants, not loans, at COP<span>29</span> finance talks",
+        description: "Negotiations at COP29 in Baku, Azerbaijan have intensified, with a few days left to build consensus over climate finance. In this final stretch, developing countries, particularly those facing debt crises, have called for prioritising public finance over private finance, ..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/11/climate-action-needs-cities-and-cities-need-funds/",
+        target: "_blank",
+        topic: "Urban Governance",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/2048px-Jodhpur_India_Houses-2048x890.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "19",
+            suffix: "th",
+            month: "November",
+            year: "2024"
+        },
+        title: "Climate action needs cities and cities need funds",
+        description: "Cities are emerging as focal points for climate action at the ongoing climate negotiations in Baku. Cities are a source of <span class='in'>70</span>% of global carbon emissions, making them key in tackling the impacts of climate change. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/11/climate-cop-aims-to-finalise-global-carbon-market-rules-under-article-6/",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/climate-rally.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "8",
+            suffix: "th",
+            month: "November",
+            year: "2024"
+        },
+        title: "Climate COP aims to finalise global carbon market rules under Article <span>6</span>",
+        description: "It’s been almost a decade since the global climate pact, the Paris Agreement, was adopted, in <span class=in'>2015</span>. Yet, a key component, the Article <span class='in'>6</span>, a framework for international climate cooperation and financial support to developing nations through a global carbon market, remains unimplemented. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/10/climate-finance-to-take-centre-stage-at-upcoming-climate-cop/",
+        target: "_blank",
+        topic: "Climate Change, Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Planet-Earth.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "31",
+            suffix: "st",
+            month: "October",
+            year: "2024"
+        },
+        title: "Climate finance to take centre stage at upcoming climate COP",
+        description: "Climate finance will be on top of the agenda when world leaders gather in Baku, Azerbaijan this November for the <span class='in'>29</span>th Conference of Parties (COP<span class='in'>29</span>th) to discuss future climate action. At the climate conference, they will negotiate the New Collective Quantified Goal (NCQG) on Climate Finance, ..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/10/balancing-conservation-and-agroforestry-to-tackle-climate-change/",
+        target: "_blank",
+        topic: "Agriculture",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/35934729586_fbd16ad805_k-2400x890-1729752150.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "24",
+            suffix: "th",
+            month: "October",
+            year: "2024"
+        },
+        title: "Balancing conservation and agroforestry to tackle climate change",
+        description: "While agroforestry has the potential to combat climate change, India’s conservation-focussed forestry is hindering its growth, says a recent working paper. Agroforestry is a land management system that integrates crops and woody perennials like trees, shrubs, palms, bamboo etc. ..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/09/amid-the-global-green-goods-boom-india-is-yet-to-jump-on-the-bandwagon/",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/OLA-Electric-scooter-manufacturing-unit.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "20",
+            suffix: "th",
+            month: "September",
+            year: "2024"
+        },
+        title: "Amid the global green goods boom, India is yet to jump on the bandwagon",
+        description: "Embracing green trade could accelerate India’s export diversification and growth as global demand for low-carbon goods and services is rising. However, India’s exports of environmental goods and services (EGS) still trail behind that of its peers, highlighted a ..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/09/indian-cities-witness-a-growing-momentum-for-climate-action/?amp=1",
+        target: "_blank",
+        topic: "Urban Governance",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Kolkata.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "6",
+            suffix: "th",
+            month: "September",
+            year: "2024"
+        },
+        title: "Indian cities witness a growing momentum for climate action",
+        description: "Latur, a city in the Marathwada region of Maharashtra with a population of around 500,000, received heavy rains on September 1, with 68.3 millimetres of rainfall in just 24 hours, causing loss of life and property. Historically known for its severe droughts, which were so extreme that in 2016, drinking water had to be ..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/08/can-innovation-overcome-the-challenges-of-urea-dependency/?amp=1",
+        target: "_blank",
+        topic: "Agriculture",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/5.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "13",
+            suffix: "th",
+            month: "August",
+            year: "2024"
+        },
+        title: "High costs, mixed results challenge nano urea use in farming",
+        description: "When fertiliser shortages pushed farmers to desperate measures in <span class='in'>2021</span>, with viral videos showing farmers looting bags of fertilisers from trucks, one farmer in Madhya Pradesh chose a different path. Mukesh Meena decided to steer away from the competition for conventional fertiliser and instead..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/07/rethinking-master-plans-for-indias-growing-cities/?amp=1",
+        target: "_blank",
+        topic: "Urban Governance",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Main-Bazaar-Paharganj-Delhi.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "23",
+            suffix: "rd",
+            month: "July",
+            year: "2024"
+        },
+        title: "Rethinking master plans for India’s growing cities",
+        description: "Delhi has been facing severe consequences due to the lack of a comprehensive urban plan. Until June this year, the capital endured scorching heat that led to the deaths of hundreds. The anticipated rains in July brought flooding instead of relief in many areas..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/04/wheeling-towards-sustainable-pottery-making-in-khurja/",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Banner-Khurja-pottery-1200x800.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "11",
+            suffix: "th",
+            month: "April",
+            year: "2024"
+        },
+        title: "Wheeling towards sustainable pottery making in Khurja",
+        description: "Fifty-year-old Sayeed Ahamed’s approach to shaping clay diverges from the conventional method employed by most traditional potters. Instead of relying on his hand’s motion to sculpt, he adopts a distinctive technique by positioning his right leg in a carefully carved hole under the ground..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/02/indias-stance-at-wto-balances-fisheries-subsidies-for-artisanal-fishers-and-sectoral-growth/",
+        target: "_blank",
+        topic: "Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Fishing-sea.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "9",
+            suffix: "th",
+            month: "February",
+            year: "2024"
+        },
+        title: "India’s stance at WTO balances fisheries subsidies for artisanal fishers and sectoral growth",
+        description: "India is likely to advocate for securing the interests of its artisanal fishers while facilitating the growth of the fishing sector at the World Trade Organisation’s (WTO) <span class='in'>13</span>th Ministerial Conference (MC13) in Abu Dhabi later this month..."
+    },
+    {
+        href: "https://india.mongabay.com/2024/02/crafting-a-sustainable-future-for-artisans-using-bamboo/",
+        target: "_blank",
+        topic: "Climate Change",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Banner-image.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "28",
+            suffix: "th",
+            month: "February",
+            year: "2024"
+        },
+        title: "Crafting a sustainable future for artisans using bamboo",
+        description: "At a young age, Jyotsana Devnath embarked on a journey in Braj Nagar, West Tripura, where she was married and became a part of a family known for their livelihood in crafting bamboo products. Her husband, Rajkumar Devnath, trained her in the skills of the trade – from buying the bamboo to making and selling..."
+    },
+    {
         href: "https://india.mongabay.com/2024/05/what-is-the-sixth-schedule-why-is-ladakh-demanding-to-be-brought-under-it/",
         target: "_blank",
         topic: "Governance",
@@ -8,7 +242,7 @@ const articles = [
         imgSrc: "Images/Ladakh-Banner.jpg",
         imgAlt: "Image 1",
         details: {
-            publicationName: "MONGABAY",
+            publicationName: "Mongabay",
             day: "17",
             suffix: "th",
             month: "May",
@@ -26,7 +260,7 @@ const articles = [
         imgSrc: "Images/Basai-wetland-2400x890-1718002627.jpg",
         imgAlt: "Image 1",
         details: {
-            publicationName: "MONGABAY",
+            publicationName: "Mongabay",
             day: "10",
             suffix: "th",
             month: "June",
@@ -44,7 +278,7 @@ const articles = [
         imgSrc: "Images/Agriculture-field-work-1200x890.jpg",
         imgAlt: "Image 1",
         details: {
-            publicationName: "MONGABAY",
+            publicationName: "Mongabay",
             day: "31",
             suffix: "st",
             month: "July",
@@ -80,7 +314,7 @@ const articles = [
         imgSrc: "Images/Amazing-banner-for-kundans-story.jpg",
         imgAlt: "Image 1",
         details: {
-            publicationName: "MONGABAY",
+            publicationName: "Mongabay",
             day: "20",
             suffix: "th",
             month: "October",
