@@ -1790,7 +1790,7 @@ const articles = [
         imgSrc: "Images/61a7526a-4bbc-4fc3-81d8-d37c2414bb4e-1.jpg",
         imgAlt: "Image 1",
         details: {
-            publicationName: "MONGABAY",
+            publicationName: "Mongabay",
             day: "2",
             suffix: "",
             month: "दिसम्बर",
