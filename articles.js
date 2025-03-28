@@ -1,5 +1,23 @@
 const articles = [
     {
+        href: "https://india.mongabay.com/2025/02/taxonomy-for-climate-finance-remains-the-missing-link-in-indias-green-transition/",
+        target: "_blank",
+        topic: "Climate Change, Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Farming_in_uttarakhand_india.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "14",
+            suffix: "th",
+            month: "February",
+            year: "2025"
+        },
+        title: "Taxonomy for climate finance remains the missing link in India's green transition",
+        description: "In her July 2024 budget speech, India’s Finance Minister Nirmala Sitharaman announced, “We will develop a taxonomy for climate finance for enhancing the availability of capital for climate adaptation and mitigation.” Many expected her to provide a deadline for it in the 2025 budget, but no such mention was made. ..."
+    },
+    {
         href: "https://india.mongabay.com/2024/12/the-methane-puzzle-of-ambition-and-action-unfolds-at-cop29/",
         target: "_blank",
         topic: "Climate Change, Green Finance/Economy",
@@ -33,7 +51,7 @@ const articles = [
             year: "2024"
         },
         title: "Developing nations demand public grants, not loans, at COP<span>29</span> finance talks",
-        description: "Negotiations at COP29 in Baku, Azerbaijan have intensified, with a few days left to build consensus over climate finance. In this final stretch, developing countries, particularly those facing debt crises, have called for prioritising public finance over private finance, ..."
+        description: "Negotiations at COP<span class='in'>29</span> in Baku, Azerbaijan have intensified, with a few days left to build consensus over climate finance. In this final stretch, developing countries, particularly those facing debt crises, have called for prioritising public finance over private finance, ..."
     },
     {
         href: "https://india.mongabay.com/2024/11/climate-action-needs-cities-and-cities-need-funds/",
