@@ -15,7 +15,7 @@ const articles = [
             year: "2025"
         },
         title: "Taxonomy for climate finance remains the missing link in India's green transition",
-        description: "In her July 2024 budget speech, India’s Finance Minister Nirmala Sitharaman announced, “We will develop a taxonomy for climate finance for enhancing the availability of capital for climate adaptation and mitigation.” Many expected her to provide a deadline for it in the 2025 budget, but no such mention was made. ..."
+        description: "In her July <span class='in'>2024</span> budget speech, India’s Finance Minister Nirmala Sitharaman announced, “We will develop a taxonomy for climate finance for enhancing the availability of capital for climate adaptation and mitigation.” Many expected her to provide a deadline for it in the <span class='in'>2025</span> budget, but no such mention was made. ..."
     },
     {
         href: "https://india.mongabay.com/2024/12/the-methane-puzzle-of-ambition-and-action-unfolds-at-cop29/",
