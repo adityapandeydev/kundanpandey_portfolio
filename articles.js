@@ -1,5 +1,23 @@
 const articles = [
     {
+        href: "https://india.mongabay.com/2025/02/explainer-what-is-climate-finance/",
+        target: "_blank",
+        topic: "Climate Change, Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/Cattle_and_goats_in_India_2016.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "21",
+            suffix: "st",
+            month: "February",
+            year: "2025"
+        },
+        title: "What is climate finance? [Explainer]",
+        description: "Only <span class='in'>13</span> out of <span class='in'>195</span> countries, signatories to the Paris Agreement, submitted their Nationally Determined Contributions (NDCs) by the February <span class='in'>10</span> deadline. India was among the many countries that missed the deadline, and reports suggest its updated commitments may reflect disappointment over inadequate climate finance agreed upon at COP<span class='in'>29</span> in Baku. ..."
+    },
+    {
         href: "https://india.mongabay.com/2025/02/taxonomy-for-climate-finance-remains-the-missing-link-in-indias-green-transition/",
         target: "_blank",
         topic: "Climate Change, Green Finance/Economy",
