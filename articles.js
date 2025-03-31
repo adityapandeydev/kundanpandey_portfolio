@@ -1,5 +1,23 @@
 const articles = [
     {
+        href: "https://india.mongabay.com/2025/03/tribal-entrepreneurs-bring-indigenous-cuisine-to-the-urban-mainstream/",
+        target: "_blank",
+        topic: "Agriculture",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/7-2400x890-1741768553.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "12",
+            suffix: "th",
+            month: "March",
+            year: "2025"
+        },
+        title: "Tribal entrepreneurs bring indigenous cuisine to the urban mainstream",
+        description: "It was the first week of March in Ranchi, Jharkhand’s capital, and summer had already set in. Gaurav Marandi, <span class='in'>25</span>, and his mother, Rut Kachhap, arrived on a bike, their faces covered to shield themselves from the scorching sun ..."
+    },
+    {
         href: "https://india.mongabay.com/2025/02/explainer-what-is-climate-finance/",
         target: "_blank",
         topic: "Climate Change, Green Finance/Economy",
