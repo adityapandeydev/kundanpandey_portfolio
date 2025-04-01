@@ -1,5 +1,23 @@
 const articles = [
     {
+        href: "https://india.mongabay.com/2025/03/fairer-property-taxes-could-help-cities-adapt-to-a-hotter-world/",
+        target: "_blank",
+        topic: "Climate Change, Green Finance/Economy",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/2-2.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "28",
+            suffix: "th",
+            month: "March",
+            year: "2025"
+        },
+        title: "Property tax revenue could help cities adapt to a hotter world",
+        description: "Pune's summer has turned relentless, with daytime temperatures soaring past <span class='in'>40</span>°C in March and nights offering little relief as the mercury refuses to dip below <span class='in'>20</span>°C. But for some residents, the heat isn't the only discomfort — unpaid property taxes have brought an unusual worry. Instead of offering an amnesty scheme ..."
+    },
+    {
         href: "https://india.mongabay.com/2025/03/tribal-entrepreneurs-bring-indigenous-cuisine-to-the-urban-mainstream/",
         target: "_blank",
         topic: "Agriculture",
