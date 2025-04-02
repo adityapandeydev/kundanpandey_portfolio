@@ -1,5 +1,23 @@
 const articles = [
     {
+        href: "https://india.mongabay.com/2025/04/shipping-industry-sets-sail-towards-carbon-accountability/",
+        target: "_blank",
+        topic: "Energy Transition",
+        language: "English",
+        publication: "Mongabay",
+        imgSrc: "Images/1280px-Evergreen_Tokyo_terminal-1200x890.jpg",
+        imgAlt: "Image 1",
+        details: {
+            publicationName: "Mongabay",
+            day: "21",
+            suffix: "st",
+            month: "April",
+            year: "2025"
+        },
+        title: "Shipping industry sets sail towards carbon accountability",
+        description: "For the first time, cargo ships transporting goods around the world will be required to pay for their carbon emissions. The move follows an agreement by member states of the International Maritime Organization (IMO), the United Nations agency that regulates global shipping. ..."
+    },
+    {
         href: "https://india.mongabay.com/2025/03/fairer-property-taxes-could-help-cities-adapt-to-a-hotter-world/",
         target: "_blank",
         topic: "Climate Change, Green Finance/Economy",
